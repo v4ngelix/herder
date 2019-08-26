@@ -1,0 +1,2095 @@
+﻿<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140897461-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140897461-1');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900" rel="stylesheet">
+    <title>Laulurahva löömine</title>
+</head>
+<body>
+    <div class="preloader visible">
+        <div class="preloaderFront"></div>
+        <div class="preloaderBack"></div>
+    </div>
+    <div class="mainWindow">
+        <div class="farBack invisible">
+            <div class="tagasiÜlesse invisible">
+                <a href="javascript:tagasiÜlesse()">
+                    <img src="media/tagasi ülesse.svg" />
+                </a>
+            </div>
+            <aside class="asideDefault nodisplay">
+                <div class="sulgemiseNupp">
+                    <a href="javascript:peida()">
+                        <img src="media/nool.svg" />
+                    </a>
+                </div>
+                <div class="lisaInfo invisible nodisplay">
+                    <div class="sisu nodisplay invisible">
+                        <p>
+                            <br />
+                            <br />
+                            Esmakordselt tutvustatakse “Jörru! Jörru!”
+                            esimest värsirida saksa humanisti Johannes
+                            Löwenklau (Leunclaviuse ) poolt 1588. aastal.
+                            Värss “Jeru Jeru Masco Lon” pidavat olema
+                            kaebelaual Jerusalemma ja Damaskuse kadumise
+                            pärast. Livooni rahvas, kelle all sel ajal
+                            mõeldi enamasti lätlasi, oli seega juuda
+                            rahva kaotsiläinud kolmeteistkümnes suguharu.
+                            <br />
+                            <br />
+                            Järgmisena võtab laulu vaatluse alla Viljandi
+                            katoliku preester Dionysius Fabricius
+                            17. sajandi alguses. Tema toob samuti ära
+                            esimese värsi: „Jeru, Jeru masculu, Jehu,
+                            Jehu, Jehu." Kuid Fabricius peab seda kindlalt
+                            eesti talupoegade lauluks, mida lauldakse
+                            metsajumala (metshaldja) auks.
+                            <br />
+                            <br />
+                            Tartu Ülikooli ajalooprofessor Friedrich
+                            Menius leiab oma teoses “Syntagma de
+                            origine Livonorium” 1632. aastal,
+                            et liivimaalased korrutavad muudkui
+                            “Jeru, Jeru” ise teadmata, mida see tähendab.
+                            Kuid Menius teab, et seda on rahva esivanemad
+                            Paabeli vangipõlves Jeeruusalemma templit
+                            meenutades hüüdnud. Seega pöördutakse tagasi
+                            arvamuse juurde, et Liivimaa rahvas pärineb
+                            juuda soost.
+                            <br />
+                            <br />
+                            Esmakordselt tervikuna tõi laulu ära
+                            Christian Kelch “Liefländische Historia”
+                            1695. aastal. Kelch leiab, et tegu ei ole
+                            nutulauluga, vaid hoopis lembelauluga, mis
+                            koosneb armunute vestlusest. Eestikeelsele
+                            tekstile lisab Kelch saksakeelse tõlke.
+                            <br />
+                            <br />
+                        </p>
+<pre>
+<b>
+Eesti keeles
+</b> 
+<i>
+    „Jörru! Jörru! jooks Ma Tullen?
+    Erra tulle Ellaken.
+    Micks ep ella eile tulnut?
+    Eile ollin Ella üxinesse
+    Nüht ollen Wirbi wiekesse.
+    Tule Home Homikulla
+    Sies ollen Jelle üxinesse
+    Karkotella Kaste Ella
+    Siuka Sittika Willula
+    Sies ollen Walmis Wainijulle
+    Kaunis karja Satemalle.“
+</i>
+<b>Christian Kelch'i vaba tõlge</b> 
+<i>
+    Jerru soll ich zu dir kommen?
+    Nein mein Liebgen heute nicht.
+    Warumb hastu deine Pflicht
+    Gestern nicht in acht genommen?
+    Gestern war ich gar allein,
+    Heute werd selb fünffe seyn.
+
+    Morgen in der Morgenstunde
+    Wohlgewachsen's Zweigelein,
+    Will ich wieder seyn allein,
+    Drumb so traue meinem Munde,
+    Und komm Morgen ohn beschwer,
+    Zu mir in voll Sprüngen her.
+
+    Wann der Thau begint zu fallen
+    Und die trockne Erde kühlt,
+    Wann annoch der Käfer spielt,
+    Will ich dir schon zu gefallen,
+    Liebster, auff dem Rasen stehn,
+    Und mit dir der Heerd nachgehn.
+</i>
+</pre>
+                        <p>
+                            17. sajandil tõlkis laulu ladina keelde
+                            Uppsala ajalooprofessor Claudius Arvidsson
+                            Örnhielm (Arrhenius), kes oli suhtluses
+                            Christian Kelchiga ning tõlge on tehtud
+                            saksa keelest ladina keelde.
+                        </p>
+<pre>
+<b>
+Ladina keeles
+</b>
+<i>
+    Jörru, Jörru! Te invisam
+    non nunc, dulce suavium
+    heri cur officium
+    neglecti in me derisam?
+    Heri sola cubui
+    nunc surn quivis usui.
+
+    Oras nubente mox aurora
+    veni mi formosule
+    crede, solus apud me
+    Eris in iueunda mõra
+    veni mane crastino
+    currens cum tripudio.
+
+    Terram siccam refocillat
+    cum vos cadens vapidus
+    vitam reddens floribus
+    et cicada cum cantillat
+    tecum inter rosulas
+    visam capras olidas.
+</i>
+</pre>
+                        <p>
+                            Laul “Jörru! Jörru!” oli Herderile kõige
+                            esimesena tuttavaks saanud baltimaine rahvalaul,
+                            millega ta tutvus 1764. aastal ühe Köningsbergi
+                            ajalehe vahendusel. Herder tegi laulust oma
+                            variandi, mille lisas oma rahvalaulukokku
+                            "Volkslieder" eesti laule tutvustavasse ossa.
+                        </p>
+<pre>
+<b>
+Herderi versioon
+</b>
+<i>
+    Jörru, Jörru, darf ich kommen?
+    Nicht o Liebchen heute.
+    Wärest du doch gestern kommen,
+    nun sind um mich Leute.
+
+    Aber morgen, früh am morgen,
+    Sclankes liebes Ästchen,
+    Kannst du kommen ohne Sorgen,
+    Da bin ich alleine.
+
+    Wenn der Maienkäfer schwirret
+    Früh im kühlen Thaue!
+    Hüpf ich, Liebe, dir entgegen
+    Weist, auf jener Aue.
+</i>
+
+<b>
+Philip V. Bohlman'i tõlge inglise keelde
+Herderi versioonile tuginedes.
+</b>
+<i>
+    George, George, may I come?
+    Not today, my love.
+    If you had only come yesterday,
+    Today, there are others with me.
+
+    But tomorrow, early in the morning,
+    You slim, beautiful branch,
+    You don’t have to worry if you come,
+    For then i’ll be alone.
+
+    When the Junge bug flitters about
+    In the cool morning thaw!
+    I’ll hasten to you, my love,
+    On that you can depend.
+</i>
+</pre>
+                    </div>
+                    <!--jöörru-->
+
+                    <div class="sisu nodisplay invisible">
+                        <img src="media/hupel.png" />
+                        <h2>
+                            August Wilhelm Hupel (1737-1819), Põltsamaa pastor ja oluline
+                            valgustusajastu tegelane baltimaades.
+                        </h2>
+                        <hr />
+                        <img src="media/hartknoch.png" />
+                        <h2>
+                            Johann Friedrich Hartknoch (1740-1789) oli kirjastaja ja raamatukaupmees
+                            Riias.
+                        </h2>
+                        <hr />
+                        <img src="media/baumann.png" />
+
+                        <h2>
+                            Jakob Benjamin Fischer (1731-1793) oli baltisaksa loodusteadlane ja
+                            apteeker Riias.
+                        </h2>
+                        <hr />
+                        <img src="media/baumann.png" />
+                        <h2>Heinrich Baumann (1716-1790) oli Võnnu pastor.</h2>
+                        <hr />
+                        <img src="media/baumann.png" />
+
+                        <h2>Gustav Bergmann (1749-1814) oli Āraiši pastor.</h2>
+                    </div><!--tüübid-->
+
+                    <div class="sisu nodisplay invisible kiri">
+                        <div>
+                            <h3>Herder Hartknochile 4. jaanuar 1778</h3>
+                            <p>
+                                <br />
+                                ...ja manitse omati Hupelit, et ta ei unustaks, mida ta mulle lubas!
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Hartknoch Herderile 25. veebruar 1778</h3>
+                            <p>
+                                <br />
+                                Järgmise kirjaga saadab Hupel eestlaste laule, aga kust võtame me
+                                lätlaste omad? Noh, vana kandidaat Nessler muretseb need, kuid ta on veidi aeglane.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Hartknoch Herderile 3. oktoober 1778</h3>
+                            <p>
+                                <br />
+                                Hupel on minu käest nii sageli pärinud, kas Te pole laulude kättesaamisest teatanud,
+                                et arvan – ta ootab kirja ja võib-olla ka tänuavaldust. Viimase on ta ära teeninud,
+                                sest rahvalaule koguda pole sugugi kerge. Ma tean missugust vaeva ma näen, et vene
+                                laule leida, ilma et see mul õnnestuks. Keegi ei taha õieti sellega tegelda!
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Herder Hartknochile 4. oktoober 1778</h3>
+                            <p>
+                                <br />
+                                Ega sa ometi unustanud  pastor Hupelit saadetise eest minu nimel tänada? Ma kirjutan
+                                talle niipea kui saan, aga ära unusta...
+                            </p>
+                        </div>
+                    </div><!--riia-->
+                    <div class="sisu nodisplay invisible kiri">
+                        <div>
+                            <h3>
+                                Baumann Fischerile 31. oktoober 1777
+                            </h3>
+                            <p>
+                                <br />
+                                Südamesõber, siin saadan Teile mõned lätlaste laulud. Uskuge mind, kallis sõber,
+                                et neist luuletustest pole varem midagi kuulda olnud.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Baumann Fischerile 13. märts 1778
+                            </h3>
+                            <p>
+                                <br />
+                                Teatage mulle ometi, armas sõber! Mida tahab hr. kindralsuperintendent Herder
+                                [...] teha meie läti rahvalauludega? See suur mees. See on mulle veel tõeline
+                                mõistatus, mida ma ei ole suuteline lahendama.
+                            </p>
+                        </div>
+                    </div><!--võnnu-->
+                    <div class="sisu nodisplay invisible kiri">
+
+                        <div>
+                            <h3>
+                                Hupel Fischerile 17. oktoober 1771
+                            </h3>
+                            <p>
+                                <br />
+                                Nüüd üks suur palve, vabandage minu jultumust. Oma suure tutvuskonna abil
+                                saate Teie minu soovi peatselt täita. Hankige mulle mõned <u>läti rahvalaulud</u>,
+                                mida nad oma pidudel, pulmades etc., etc. isekeskis laulavad, koos <u>
+                                    sõnasõnalise
+                                    tõlkega
+                                </u>, kui võimalik, siis vähemalt üks koos <u>tiiskantnootides lauluviisiga</u>
+                                ja ühe või 2 silbimõõdu äramärkimisega. <u>Ainult et kirjutada tuleb loetavalt</u>.
+                                Usinal praost Baumannil peaks tema kogude hulgas ju mõni läti rahvalaulukogu
+                                olema või pastor Bergmannil. <u>Ruhig</u> pidavat oma grammatikas paar läti laulu
+                                ära tooma, neid tahaks ma ülakirjeldatud kombel eriti saada. Palun täitke
+                                see palve [---] Kui pastorid peaksid selliste laulude saatmist patuks pidama,
+                                siis küllap Te leiate teisi, kes seda paljuks ei pea. Mida teravmeelsemad
+                                laulud, seda parem; enamik on ju kaunis naiivsed.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Hupel Hartknochile 17. okoober 1771
+                            </h3>
+                            <p>
+                                <br />
+                                Herder palub minult eesti ja läti rahvalaule; tahan need talle hankida; kas
+                                Teie ei saaks mulle üht-teist muretseda, nimelt mõningaid lätlaste laule,
+                                näiteks pulmalaule etc., mis poleks aga liiga naiivsed; ühes võimalikult
+                                sõnasõnalise täpse tõlkega. Ühel või kahel palun ma värsimõõdu ära märkida ja,
+                                kus võimalik, juurde lisada lauluviis tiiskantnootides. Eriti palub ta neid
+                                lätikeelseid laule koos tõlkega, mida Ruhig oma grammatikas esitavat. Seda raamatut
+                                mul pole. Hankige mulle vähemalt need laulud läti ja saksa keeles ühes värsimõõduga.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Hupel Hartknochile 1. detsember 1777
+                            </h3>
+                            <p>
+                                <br />
+                                Kui Teil on läti laulud olemas, kas või ükski, siis saatke see, aga koos sõna-sõnalise
+                                tõlkega. Muretsege mulle vähemalt ühe läti laulu viisid tiiskantnootides. Kui Teil peaks
+                                võimalus olema, siis tuletage härra orbuderaamatupidaja Fischreile meelde, et ta lubatud
+                                läti laulud varsti saadakas; Herder ootab neid peatselt, Ruhigi leksikoni omad ei ole läti-,
+                                vaid leedukeelsed; üks siinne lätlane sai neist vaid poolenisti aru. Herder tahaks selllest
+                                meelsasti värsimõõtu ja sõna-sõnalist tõlget: kas Te saate seda muretseda?
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Hupel Fischerile 7. detsember 1777
+                            </h3>
+                            <p>
+                                <br />
+                                Ma ootan nüüd suure igatsusega palutud läti rahvalaule; olgu see või üksainus; kuid koos
+                                sõna-sõnalise tõlkega; mõnede ridade kohta palun ma tuntud märkide –  abil märgistada värsimõõt;
+                                sest kuigi enamikul läti sõnadest on esimene silp pikk, tahan ma siiski meelsasti täita oma
+                                välismaa korrespondentide soovi nii täielikult kui võimalik. Kui see on võimalik, siis ma palun
+                                sinna juurde lauluviisi tiiskantnootides; kui mõlemat, värsimõõtu ja lauluviisi ei peaks saadaval
+                                olema, siis palun ma vähemalt sõna-sõnalist tõlget.
+                            </p>
+                        </div>
+                        <!--<div>
+                    <h3>
+                        21. veebruar 1778 teatas Hupel Fischerile, et läti rahvalaulud on Herderile
+                        edasi saadetud.
+                    </h3>
+                </div>-->
+
+                    </div> <!--Põltsamaa-->
+
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <p>
+                            Hupeli saadetise hulgas oli enim pulmalaule, kokku viis. Mis on ka mõistetav,
+                            kuna Hupel oli pastor ja pulmade pidamine on alati olnud oluline.
+                            Pulmalulud on eesti rahvalaulu traditsioonis kõige improvisatsioonilisemad.
+                            Pulmalaulik oli enamasti vanem naine. Pulmalaulud käisid käsikäes pulmakommetega
+                            ning ühes lauludega viidi läbi abiellumisega seotud olulised rituaalid.
+                        </p>
+                        <div class="triple">
+                            <div>
+<pre>
+<i>
+Ehhi Neido Joua Neido!
+kassike! kannicke!
+Ehhi neile Ehteëlle,
+kassike! kannicke!
+Panen neile Paeladelle, -
+Mis so Emma enne ehtand, -
+Seäda neile Säristelle, -
+Mis so Emma enne seädnud.
+Panne Pähhä Memme Perga -
+Otsa ette Memme Hole!
+Kassike, kannicke.
+Istu Memme istemelle! -
+Astu Memme Astemelle!
+Ärra nutta Neiokenne! -
+Kui sa nuttad ehhitennes,
+Siis sa nuttat elladennes.
+Kassike, kannicke.
+
+
+Olga terwe, Neitsikenne!
+Kassike, kannicke!
+Omma auu hoidemasta, -
+Omma kasso kaswamasta! -
+Satis sajani Sössarad, -
+Pulmani öed punnased. -
+Es sada Issale Häbbi, -
+Es sada Emmale Häbbi, -
+Wennale weddo-Kübbarad, -
+Sössorole Söima suri. -
+Olga terwe neitsikenne! -
+
+
+Neitsikenne norokenne,
+Mis sa kulad kambenesse?
+Seisad seinade taggase?
+Pillotad läbbi pilloda?
+Tulle suggu tuntemaie;
+Wössa wastowottemaie:
+Eimuda terretamaie,
+Kellil kätte andemaie.
+Suggu sabas seri suri;
+Eimud keik höbbi kübbarad.
+Neitsikenne norokenne.
+    </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+<i>
+Schmück dich, Jungferchen, eile Jungferchen!
+
+Schmück dich aus mit dem Schmuck
+
+Leg an die Bänder,
+Welche deine Mutter vorhin zierten.
+Leg auf die Fußbinden,
+Welche deine Mutter vorhin trug.
+Seß auf den Kopf der Mutter Kranz,
+Vor die Stirn der Mutter Sorge!
+
+Seß dich auf den Siß der Mutter,
+Tritt auf den Fußtritt der Mutter!
+Weine nicht, Jungfräulein!
+Wenn du beym Unkleiden weinst,
+So wenst du auch im (deinem künftigen) Leben.
+
+
+
+Habe Dank, Jungfräulein,
+
+Deine Ehre bewahrt zu haben,
+Deinen Wuchs gewachsen zu haben!
+Sie führte bis zur Hochzeit die Schwestern,
+Bis zur Hochzeit die rothen (schõnen) Schwestern.
+Sie machte dem Vater nicht Schande,
+Sie machte der Mutter nicht Schande,
+Sie brachte dem Bruder keinen Schandhuth,
+Der Shwester keine grobe Schimpfworte
+Habe Dank, Jungfräulein.
+
+
+Junges mädchen,
+Was horchst du in der Kammer?
+Stehest hinter der Wand?
+Lauerst burch den Riß?
+Komm, lern die Verwandschaft kennen;
+Die Unverwandten zu empfangen;
+Die Schwiegermutter zu grüßen
+Der Schwägerin die Hand zu geben.
+Die Verwandschaft ist vom großen Stiefel=geschlecht;
+Die Schwiegermütter haben alle silberne Hüte (Mützen).
+Junges mädchen.
+</i>
+</pre>
+                            </div>
+                        </div>
+
+                    </div> <!--pulma-->
+
+                    <div class="sisu nodisplay invisible">
+                        <div class="triple">
+                            <div>
+                                <pre>
+                                <b>
+                                    Hupeli saadetud sõnasõnaline tõlge
+
+                                    Mõned pulmalaulud
+                                </b>
+                                <i>
+                                    Schmück dich, Jungferchen, eile Jungferchen!
+                                    Schmück dich aus mit dem Schmuck
+
+                                    Leg an die Bänder,
+                                    Welche deine Mutter vorhin zierten.
+                                    Leg auf die Fußbinden,
+                                    Welche deine Mutter vorhin trug.
+                                    Seß auf den Kopf der Mutter Kranz,
+                                    Vor die Stirn der Mutter Sorge!
+                                    Seß dich auf den Siß der Mutter,
+                                    Tritt auf den Fußtritt der Mutter!
+                                    Weine nicht, Jungfräulein!
+                                    Wenn du beym Unkleiden weinst,
+                                    So wenst du auch im (deinem künftigen) Leben.
+
+
+                                    Habe Dank, Jungfräulein,
+                                    Deine Ehre bewahrt zu haben,
+                                    Deinen Wuchs gewachsen zu haben!
+                                    Sie führte bis zur Hochzeit die Schwestern,
+                                    Bis zur Hochzeit die rothen (schönen) Schwestern.
+                                    Sie machte dem Vater nicht Schande,
+                                    Sie machte der Mutter nicht Schande,
+                                    Sie brachte dem Bruder keinen Schandhuth,
+                                    Der Shwester keine grobe Schimpfworte
+                                    Habe Dank, Jungfräulein.
+
+
+                                    Junges mädchen,
+                                    Was horchst du in der Kammer?
+                                    Stehest hinter der Wand?
+                                    Lauerst burch den Riß?
+
+                                    Komm, lern die Verwandschaft kennen;
+                                    Die Unverwandten zu empfangen;
+                                    Die Schwiegermutter zu grüßen
+                                    Der Schwägerin die Hand zu geben.
+                                    Die Verwandschaft ist vom großen Stiefel=geschlecht;
+                                    Die Schwiegermütter haben alle silberne Hüte (Mützen).
+                                    Junges mädchen.
+                                </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <b>
+                                    Herderi versioon
+
+                                    Einige Hochzeitlieder
+                                </b>
+                                <i>
+                                    Schmück dich, Mädchen, eile, Mädchen,
+                                    Schmücke dich mit jenem Schmucke,
+                                    Der einst deine Mutter schmückte.
+                                    Lege an dir jene Bänder,
+                                    Die die Mutter einst anlegte.
+
+
+                                    Auf den Kopf das Band des Kummers,
+                                    Vor die Stirn das Band der Sorge,
+                                    Sitze auf den Sitz der Mutter:
+                                    Tritt auf deiner Mutter Fußtritt:
+                                    Weine, weine nicht, o Mädchen,
+                                    Wenn du bei dem Brautschmuck weinest,
+                                    Weinest du dein ganzes Lebend.
+
+
+                                    Dank dir Jungfrau, schöne Jungfrau,
+                                    Daß du deine Treu bewahret,
+                                    Daß du deinen Wuchs gewachsen.
+                                    Jetzo führen sie zur Hochzeit
+                                    Frohe Schwester, schöne Schwestern,
+                                    Ist dem Vater keine Schande,
+                                    Ist der Mutter keine Schande,
+                                    Bringt dem Bruder keinen Schimpfhut,
+                                    Nicht der Schwester Schimpfesworte.
+                                    Dank dir, Jungrfrau, schöne Jungfrau.
+
+
+                                    Junges Mädchen, komm, o Mädchen!
+                                    Ei, was horchst du in der Kammer?
+                                    Stehst da blöde hinter Wänden,
+                                    Lauschest durch die kleinen Spalten.
+                                    Junges Mädchen, komm, o Mädchen,
+                                    Lerne die Verwandschaft kennen,
+                                    Lerne deine Freund' empfangen,
+                                    Deine Schwiegermutter grüssen,
+                                    Deiner Schwägrin Hände reichen.
+                                    Schweigermutter, Schweigerinnen
+                                    Stehen all' in Silbermützen –
+                                    Junges Mädchen, komm, o Mädchen.
+                                    </i>
+</pre>
+                                <p>
+                                    Herder lisas pulmalulule veel ühe salmi, mida
+                                    Hupeli saadetud laulude hulgas ei olnud. Arvatakse,
+                                    et tegemist võib olla liivi lauluga.
+                                </p>
+                                <pre>
+<i>
+                                    Herzchen, Blümchen, goldnes Mädchen,
+                                    Wenn ich deinem Vater diene,
+                                    Wenn ich deiner Mutter diene,
+                                    Denn bist du die Meine;
+                                    Herzchen, Blümchen, süsses Mädchen,
+                                    Noch muß ich mir selber dienen,
+                                    bin noch nicht der Deine.
+                                </i>
+</pre>
+                            </div>
+                        </div>
+                    </div> <!--einige-->
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <p>
+                            Laul, milles kurdetakse orja raske saatuse üle.
+                        </p>
+                        <div class="triple">
+                            <div>
+                                <pre>
+                                <i>
+                                    Mina epp lähhe tüttar, töte pakko,
+                                    Marja warsi made pakko,
+                                    Ei Jani asseme pakko.
+                                    Ma lähhän kurja saksa pölwe,
+                                    Hirmsa issanda pakko;
+                                    Ma lähhen kurja saksa pölwe,
+                                    Hirmsa issanda pölwe,
+                                    Santid lödi samba öie,
+
+                                    Waesed wangi raude öie,
+                                    Mehhed kangisi kallisid,
+                                    Naesed hulkusid ukse suse,
+                                    Munna kinta et käesa,
+                                    Munnade kirjad kinta asse.
+                                    Kanna kääksub kaentelase;
+                                    Anni aljas alla elma;
+                                    Porsas pöllese kirriseb;
+                                    Lammas laukib wangerille.
+                                    Mis kannad munnad munnewad.
+                                    Needke saksa waganasse.
+
+                                    Lammas teggi lauko talle,
+                                    Segi prae warta esse.
+                                    Lehm teggi härgse wassika,
+                                    Segi saksa wälja peäle.
+
+                                    Hobbo teggi tekkust warsa,
+                                    Segi saksa sani ees.
+                                    Naesel olli ainus poeg,
+                                    Segi saksa samba esse.
+                                    Mis on ell elwitasse.
+                                    Ehk on pölwe pörgo esse:
+                                    Seeb on meie moisa asse.
+
+                                    Seäl södi tulline leiba,
+                                    Jodi kirjene karrikas;
+                                    Tulli leiwa tukkumasse,
+                                    Söttem on sisso seena,
+
+                                    Wits on wilako wahhele.
+                                    Kui ma peäsen moisa eesta,
+                                    Siis ma meäsen pörgo eesta;
+                                    Peäsen kui soe suusta,
+                                    Löwwi laukade wahhelt,
+                                    Awwi hammaste pärralta,
+                                    Kirjo koera kiskumast,
+                                    Musta koera murdamast.
+                                    Ei mind kissu kirjokene
+                                    Egga murra mustakenne
+                                    Hammustelle allikenne:
+                                    Mul päus pennide kakko,
+
+                                    Musta murde ette käesa,
+
+                                    Alli kakko kaentelasse,
+                                    Rakki rasud pauesse.
+                                </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <i>
+                                    Tochter ich fliehe nicht vor der Arbeit
+                                    Nicht vor Stellen, wo Beeren=sträucher (stehen)
+                                    Nicht von Jaans Land.
+                                    Ich fliehe vor der Zeit böser Deutschen,
+                                    vor dem schrecklichen Herren.
+                                    Ich fliehe vor der Zeit böser Deutschen
+                                    Der Zeit der schrecklichen Herren.
+                                    Die Bettler (armen Bauern) werden am Pfosten
+                                    (Hofs Pranger) gestrichen (mit Ruthen)
+                                    Die armen in Eisen.
+                                    Die Männer rasselten in Eisen,
+                                    Die Weiber (trieben fich herum) vor der Thür.
+                                    Handschu mit Eyern in der Hand,
+                                    Eyer=Schrift (Geschenk) im Handschu.
+                                    Das Huhn schreiet unter dem Arm
+                                    Die graue Gans unter dem Ermel (Arm)
+                                    Der Ferkel Grunzt in der Schürze
+                                    Das Schaaf bäht (schreiet) aus dem Wagen.
+                                    Alle Eyer welche die Hüner legen,
+                                    auch die (kommen) in des Deutschen
+                                    (der Herrschaft) Schüssel
+                                    Das Schaaf sezte ein Lam mit einer Blässe.
+                                    Auch das (kommt) an den Bratspieß.
+                                    Die Ruh sezte ein Ochskalb,
+                                    Auch dieß auf des Deutschen
+                                    (der Herrschaft, des Hofs)
+                                    Das Pferd sezte ein Hengstfüllen
+                                    Auch das vor des Deutschen Schlitten.
+                                    Das Weib hatte einen einzigen Sohn.
+                                    Auch dieser an des Deutschen Pfosten.
+                                    Das Leben wird verwehet,
+                                    Oder ist ein Höllenstand:
+                                    Das (so) ist unser Hofs=Plaß
+                                    (Stand Beschaffenheit)
+                                    Dort aß man (ward gegessen) feurig Brod.
+                                    Ward winselnder Bescher gedrunken;
+                                    Feuer=Brod mit Feuerbrand,
+                                    Ein Junke ist in der Krume
+                                    (dem Weichen des Brods)
+                                    Die Ruthe zwischen einem Stück Brod.
+                                    Wenn ich vom Hof loskomme,
+                                    So komme ich aus der Hölle,
+                                    Komme aus des Wolfs Rachen,
+                                    Aus des Löwen Kinnladen
+                                    Aus des Hinterzähnen des Hechts
+                                    Los von dem Biß (Reißen) des bunten Hundes
+                                    Von dem Mord des schwarzen Hundes.
+                                    Mich reißt (beißt) nicht das bunte (Hündchen)
+                                    Noch morbet mich das schwarze,
+                                    Noch beist mich das graue:
+                                    Ich habe in der Hand Hunde Brod
+                                    (Brod für die Hunde)
+                                    Wider den Biß des schwarzen
+                                    (Hundes) in der Hand,
+                                    Für den grauen Brod unter dem Arm,
+                                    Für den kleinen Hund Brocken im Busen.
+                                </i>
+</pre>
+                            </div>
+                        </div>
+
+                    </div> <!--kaebe-->
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <p>
+                            Laulu kohta, milles kurdedakse pärisorja raske saatuse üle, märgib Herder, et"Lühendatult oleks
+                            laul ilusam; aga ärgem seda lühendagem. Kõlagu see ühe kannatava rahva ehe ohe oma tõeliselt
+                            tunnetatud, mitte luuletatud olukorrast nii, nagu ta on."
+                        </p>
+                        <div class="triple">
+                            <div>
+                                <pre>
+                                <i>
+                                        Tochter ich fliehe nicht vor der Arbeit
+                                        Nicht vor Stellen, wo Beeren=sträucher (stehen)
+                                        Nicht von Jaans Land.
+                                        Ich fliehe vor der Zeit böser Deutschen,
+                                        vor dem schrecklichen Herren.
+                                        Ich fliehe vor der Zeit böser Deutschen
+                                        Der Zeit der schrecklichen Herren.
+                                        Die Bettler (armen Bauern) werden am Pfosten
+                                        (Hofs Pranger) gestrichen (mit Ruthen)
+                                        Die armen in Eisen.
+                                        Die Männer rasselten in Eisen,
+                                        Die Weiber (trieben fich herum) vor der Thür.
+                                        Handschu mit Eyern in der Hand,
+                                        Eyer=Schrift (Geschenk) im Handschu.
+                                        Das Huhn schreiet unter dem Arm
+                                        Die graue Gans unter dem Ermel (Arm)
+                                        Der Ferkel Grunzt in der Schürze
+                                        Das Schaaf bäht (schreiet) aus dem Wagen.
+                                        Alle Eyer welche die Hüner legen,
+                                        auch die (kommen) in des Deutschen
+                                        (der Herrschaft) Schüssel
+                                        Das Schaaf sezte ein Lam mit einer Blässe.
+                                        Auch das (kommt) an den Bratspieß.
+                                        Die Ruh sezte ein Ochskalb,
+                                        Auch dieß auf des Deutschen
+                                        (der Herrschaft, des Hofs)
+                                        Das Pferd sezte ein Hengstfüllen
+                                        Auch das vor des Deutschen Schlitten.
+                                        Das Weib hatte einen einzigen Sohn
+                                        Auch dieser an des Deutschen Pfosten.
+
+                                        Das Leben wird verwehet,
+                                        Oder ist ein Höllenstand:
+                                        Das (so) ist unser Hofs=Plaß
+                                        (Stand Beschaffenheit)
+                                        Dort aß man (ward gegessen) feurig Brod.
+                                        Ward winselnder Bescher gedrunken;
+                                        Feuer=Brod mit Feuerbrand,
+                                        Ein Junke ist in der Krume
+                                        (dem Weichen des Brods)
+                                        Die Ruthe zwischen einem Stück Brod.
+                                        Wenn ich vom Hof loskomme,
+                                        So komme ich aus der Hölle,
+                                        Komme aus des Wolfs Rachen,
+                                        Aus des Löwen Kinnladen
+                                        Aus des Hinterzähnen des Hechts
+                                        Los von dem Biß (Reißen) des bunten Hundes
+                                        Von dem Mord des schwarzen Hundes.
+                                        Mich reißt (beißt) nicht das bunte (Hündchen)
+                                        Noch morbet mich das schwarze,
+                                        Noch beist mich das graue:
+                                        Ich habe in der Hand Hunde Brod
+                                        (Brod für die Hunde)
+                                        Wider den Biß des schwarzen
+                                        (Hundes) in der Hand,
+                                        Für den grauen Brod unter dem Arm,
+                                        Für den kleinen Hund Brocken im Busen.
+                                    </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <i>
+                                        Tochter, ich flieh nicht die Arbeit,
+                                        Fliehe nicht die Beerensträucher,
+                                        Fliehe nicht von Jaans Lande;
+                                        Vor dem bösen Deutschen flieh ich,
+                                        Vor dem schrecklich bösen Herren.
+
+                                        Arme Bauren an dem Pfosten
+                                        Werden blutig sie gestrichen.
+
+                                        Arme Bauren in den Eisen,
+                                        Männer rasselten in Ketten,
+                                        Weiber klopften vor den Thüren,
+                                        Brachten Eyer in den Händen,
+                                        Hatten Eyerschrift im Handschuh,
+                                        Unterm arme schreit die Henne,
+                                        Unterm Ermel schreit die Graugans,
+
+                                        Auf dem Wagen bläckt das Schäfchen.
+                                        Unsre Hüner legen Eyer
+                                        Alle für des Deutschen Schüssel:
+
+                                        Schäfchen setzt sein fleckig Lämmchen,
+                                        Das auch für des Deutschen Bratspieß.
+                                        Unsrer Kuh ihr erstes Oechschen,
+                                        Das auch für des Deutschen Felder.
+
+                                        Pferdchen setzt ein muntres Füllen;
+                                        Das auch für des Deutschen Schlitten,
+                                        Mutter hat ein einzig Söhnchen,
+                                        Den auch an des Deutschen Pfosten.
+
+                                        Fegefeur ist unser Leben,
+                                        Fegefeuer oder Hölle.
+                                        Feurig Brod ißt man am Hofe,
+
+
+                                        Winselnd trinkt man seinen Becher,
+                                        Feuerbrod mit Feuerbrande,
+                                        Funken in des Brodes Krume,
+
+                                        Ruthen unter Brodes Rinde.
+                                        Wenn ich los von Hofe komme,
+                                        Komm' ich aus der Hölle wieder,
+                                        Komm zurück aus Wolfes Rachen,
+                                        Komm zurück aus Löwens Schlunde,
+                                        Aus des Hechtes Hinterzähnen,
+                                        Los vom Biß des bunten Hundes,
+                                        Los vom Biß des schwarzen Hundes.
+                                        Ei! du sollt mich nicht mehr beissen,
+                                        Buntes Hündchen, und du schwarzer!
+                                        Brod hab ich für euch, ihr Hunde,
+
+
+                                        In der Hans hier für den Schwarzen,
+
+                                        Unterm Arm hier für den Grauen,
+                                        In dem Busen für das Hündchen.
+                                    </i>
+</pre>
+                            </div>
+                        </div>
+                    </div> <!--klage-->
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <p>
+                            Hupel on Herderi saatnud ka ühe sõjalaulu, milles õde annab vennale õpetusi, kuidas
+                            sõjas ellu jääda. Laul on huvitav oma sõjavastase hoiaku poolest.
+                        </p>
+                        <div class="triple">
+                            <div>
+                                <pre>
+                                <i>
+                                        Jo todi söa sannumed,
+                                        Waeno keeled kanneti.
+                                        Kes lähhäb meilta söddaje?
+                                        Keigenorem ella welle,
+                                        Keigenorem keige körgem;
+                                        Keige körgemad kübbarad
+                                        Keige uhkemad hobbosed,
+                                        Keige saksemad saddulad.
+
+                                        Ehhitellin ella wenda
+                                        Ehhitellin öppetellin:
+                                        Minno ella wellekenne,
+                                        Ärra sa aiago eele!
+                                        Ärra sa jägo järrele!
+                                        Essimessed elpitasse,
+                                        Tagumissed tappetasse.
+                                        Kerita kesset söddada,
+                                        Liggi lippo kandiatte!
+                                        Keskmissed koddo tullewad.
+                                        Welli tulli söast koddoja;
+                                        Läks ta issa ukse ette:
+                                        Tulle issa, tunne poega!
+                                        Tulli issa ei tunnud poega.
+                                        Läks ta emma ukse ette:
+                                        Tule emma tunne poega!
+                                        Tulli emma ei tunnud poega.
+                                        Läks ta wenna ukse ette:
+                                        Tulle wend ja tunne wenda!
+                                        Tulli wend ei tunnud wenda.
+                                        Läks ta öe ukse ette:
+                                        Tulle ödde tunne wenda!
+                                        Tulli ödde, tundis venda!
+                                        Kust ma tundsin wenna nore?
+                                        Lühhiteste rideesta,
+                                        Maddalaste manteleste.
+                                        Minno ella wennakenne,
+                                        Ütle mul söa sannumed:
+                                        Kuidas söas oldanekse?
+                                        Kas so söas naene armas?
+                                        Naene armas, kas kallis?
+                                        Oh, minno ödde maddala,
+                                        Pühhi mo sabad sawwista,
+                                        Eiga moöka urmudesta
+                                        Siis ma hakkan räkimaie.
+                                        Oh minno ödde maddala,
+                                        Polle söas naene armas,
+                                        Naene armas, kasa kallis;
+                                        Söas kallis haljas moöka,
+                                        Kaunis kange pea hobbone,
+                                        Kes peästab mehhe söasta
+                                        Wainu moökade wahheta
+                                        Pissi kerketa käesta.
+                                    </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <i>
+                                        Schon ward die Kriegspost gebracht,
+                                        Feindschaft=Gerede getragen.
+                                        Wer von uns geht wieder in Krieg?
+                                        Der allerjüngste Bruder,
+                                        Der jüngste der höchste;
+                                        Die höchsten Hüte,
+                                        Die stolzesten Pferde,
+                                        Die beutschesten (sit vena verbo)
+                                        Sättel(follen wohl die zierlichsten feyn)
+                                        Ich rüstete den Bruder aus
+                                        Ich rüstete ihn aus und unterrichtete ihn:
+                                        Mein lieber Bruder,
+                                        Reit nicht voraus!
+                                        Bleib nicht zurück!
+                                        Die ersten werden geschlagen
+                                        Die hintersten erschlagen.
+                                        Drehe dich mitten im Krieg.
+                                        Nahe bey den Fahnenträger!
+                                        Die mittelsten kommen nach Hause.
+                                        Der Bruder kam aus dem Krieg nach Hause;
+                                        Ging vor des Vaters Thür:
+                                        Komm Vater, erkenne den Sohn!
+                                        Der Vater kam, erkannt nicht den Sohn.
+                                        Ging vor der Mutter Thür:
+                                        Komm Mutter, erkenne den Sohn!
+                                        Kam die Mutter, erkannt nicht den Sohn!
+                                        Ging vor des Bruders Thür:
+                                        Komm Bruder, erkenn den Bruder!
+                                        Kam der Bruder, erkannt nicht den Bruder.
+                                        Ging vor des Schwester Thür:
+                                        Komm Schweister, erkenn den Bruder!
+                                        Kam die Schwester, erkannt den Bruder!
+                                        Woran erkannt ich meinen jungen Bruder?
+                                        An den kurzen Kleidern,
+                                        An dem niederigen Mantel.
+                                        Mein lieber Bruder,
+                                        Sag (erzähl) mir Kriegs=Nachrichten:
+                                        Wie lebt man im Krieg?
+                                        Ist im Krieg das Weib lieb?
+                                        Das weib lied, die Gattin theuer?
+                                        O, meine kleine Schwester,
+                                        Buß meine leimichten Stieseln,
+                                        Keinige meinen blutigen Degen;
+                                        Dann fange ich an zu reden.
+                                        O, meine kleine Schwester,
+                                        Im Krieg ist das Weib nicht lieb.
+                                        (Nicht) das Weib lieb, die Gattin theuer;
+                                        Im Krieg ist lieb der blanke Degen,
+                                        Ein starkes Pferd,
+                                        Das den Mann (Kerl) aus dem Krieg rettet,
+                                        Den feindlichen Degen zu wechseln,
+                                        Die Flinte aus des Vornehmen Hand.
+                                    </i>
+</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <p>
+                            “Venna sõjalugu” on üks tuntumaid eesti jutustavaid regilaule. A. W. Hupel,
+                            kes enamasti pidas eesti rahvalaule lapsikuteks on “Venna sõjalaulu” puhul märkinud,
+                            et selles laulus on tavalisest rohkem tervet inimmõistust.
+                        </p>
+                        <div class="triple">
+                            <div>
+                                <pre>
+                                <i>
+                                        Schon ward die Kriegspost gebracht,
+                                        Feindschaft=Gerede getragen.
+                                        Wer von uns geht wieder in Krieg?
+                                        Der allerjüngste Bruder,
+                                        Der jüngste der höchste;
+                                        Die höchsten Hüte,
+                                        Die stolzesten Pferde,
+                                        Die beutschesten (sit vena verbo)
+                                        Sättel(follen wohl die zierlichsten feyn)
+                                        Ich rüstete den Bruder aus
+                                        Ich rüstete ihn aus und unterrichtete ihn:
+                                        Mein lieber Bruder,
+                                        Reit nicht voraus!
+                                        Bleib nicht zurück!
+                                        Die ersten werden geschlagen
+                                        Die hintersten erschlagen.
+                                        Drehe dich mitten im Krieg.
+                                        Nahe bey den Fahnenträger!
+                                        Die mittelsten kommen nach Hause.
+                                        Der Bruder kam aus dem Krieg nach Hause;
+
+                                        Ging vor des Vaters Thür:
+                                        Komm Vater, erkenne den Sohn!
+                                        Der Vater kam, erkannt nicht den Sohn.
+
+                                        Ging vor der Mutter Thür:
+                                        Komm Mutter, erkenne den Sohn!
+                                        Kam die Mutter, erkannt nicht den Sohn!
+
+                                        Ging vor des Bruders Thür:
+                                        Komm Bruder, erkenn den Bruder!
+                                        Kam der Bruder, erkannt nicht den Bruder.
+
+                                        Ging vor des Schwester Thür:
+                                        Komm Schweister, erkenn den Bruder!
+                                        Kam die Schwester, erkannt den Bruder!
+
+                                        Woran erkannt ich meinen jungen Bruder?
+                                        An den kurzen Kleidern,
+                                        An dem niederigen Mantel.
+                                        Mein lieber Bruder,
+                                        Sag (erzähl) mir Kriegs=Nachrichten:
+                                        Wie lebt man im Krieg?
+                                        Ist im Krieg das Weib lieb?
+                                        Das weib lied, die Gattin theuer?
+
+                                        O, meine kleine Schwester,
+                                        Buß meine leimichten Stieseln,
+                                        Keinige meinen blutigen Degen;
+                                        Dann fange ich an zu reden.
+
+                                        O, meine kleine Schwester,
+                                        Im Krieg ist das Weib nicht lieb.
+                                        (Nicht) das Weib lieb, die Gattin theuer;
+                                        Im Krieg ist lieb der blanke Degen,
+                                        Ein starkes Pferd,
+                                        Das den Mann (Kerl) aus dem Krieg rettet,
+                                        Den feindlichen Degen zu wechseln,
+                                        Die Flinte aus des Vornehmen Hand.
+                                    </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <i>
+                Schon erscholl die Post des Krieges,
+                Schon erging der Ruf der Feindschaft,
+                Wer von uns geht nun zum Kriege?
+                Jüngster Bruder, gröster Bruder!
+                Die höchsten Hüte, die schönsten Pferde,
+
+                Die stolzesten Pferde, die deutschesten Sättel!
+
+
+                Eilig rüstet' ich den Bruder,
+                Rüstet' ich und unterwies ihn:
+                Lieber Bruder, guter Bruder,
+                Reit' nicht vorwärts, bleib'nicht rückwärts,
+
+                Denn der Feind erschlägt die ersten,
+                Und der Feind erschlägt die letzten.
+                Dreh' dich mitten in den Krieg hin,
+                Halt dich nah am Fahnenträger,
+                Denn die Mitte kommt nach Hause.
+                Brüder kam zurück nach Hause
+
+                Ging vor seines Vaters Thür:
+                „Vater, komm, erkenn den Sohn!
+                Vater kam und kannt ihn nicht.“
+
+                Ging vor seiner Mutter Thür:
+                „Mutter, komm, erkenn den Schon!
+                Mutter kam, erkannt ihn nicht.“
+
+                Ging vor seines Bruders Thür:
+                „Bruder, komm, erkenn den Bruder!
+                Bruder kam, erkannt ihn nicht.“
+
+                Ging vor seiner Schwester Thür;
+                „Schwester, komm, erkenn den Bruder!“
+                Schwester kam, erkannt den Bruder –
+
+                Woran kannt ich meinen Bruder?
+                Kannt ihn an den kurzen Kleidern,
+                Kannt ihn an dem niedern Mantel,
+                „Lieber Bruder, guter Bruder,
+                Sag', erzähle mir vom Kriege!
+                Sprich, wie lebt man in dem Kriege?
+                Ist im Kriege auch das Weib lieb?
+                Lieb das Weib, die Gattin theuer!“
+
+                „Liebe Schwester, kleine Schwester!
+                Zieh mir aus die staubgen Kleider,
+                Wisch mir ab den blutgen Degen,
+                Dann erzähl ich dir vom Kriege.
+
+                Nein im Krieg ist nicht das Weib lieb,
+                Nicht das Weib, die Gattin theuer!
+                Lieb im Krieg ist blanker Degen,
+                Lieb im Krieg' ein wackres Pferd,
+
+                Das den Mann vom Kriege rettet.
+                Lieb, zu wechseln Feindes Degen,
+                Das Gwehr aus Feindes Hand.“
+            </i>
+</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <p>
+                            Laul räägib loo mehest, kes tõotas naist mitte võtta, kuid nägi,
+                            et ei saa naiseta elada ja otsustas naise puust valmistada.
+                        </p>
+                        <div class="triple">
+                            <div>
+                                <pre>
+                                <i>
+                                    Ellekenne, Wellekenne!
+                                    Kassike, kannicke!
+                                    Töotid Naiseta ellada,
+                                    kassike, kannicke!
+                                    Abbikasata karrata,
+                                    kassike kannicke!
+                                    Ärra koolda kossimatta. -
+                                    Sait ellama, sait ollema, -
+                                    Es sa Naiseta Elletud, -
+                                    Wottit tetta Puusta Naista. -
+                                    Wahtarasta walmistatta. -
+                                    Puust saab Naine puhtaënne, -
+                                    Wahtarasta saab walgeënne, -
+                                    Ounapuust saab öggewenne, -
+                                    Sarrapuust saab sirgeënne. -
+                                    Ellakenne, Wellekenne! -
+                                    Kolm on Naisele waiata, -
+                                    Sisse ella Hengekesta, -
+                                    Suhho kulla kelekesta, -
+                                    Pähhe Marja Melekesta. -
+                                    Ellakenne! Wellekenne! -
+                                    Wottit tetta Puusta Naista, -
+                                    Wissa Tammesta tahhuda, -
+                                    Panna kulda Palgeëlle, -
+                                    Höbbedad ülle öllade. -
+                                    Maggat Öö, maggat katsi. -
+                                    Läksit kolmata maggama,
+                                    kassike, kannicke!
+                                    Löidsit külmad kulla külled, -
+                                    Kalledat kaintele allused, -
+                                    Jälledat Höbbeda Jälged. -
+                                    Ellakenne! Wellekenne! -
+                                    Ei sa Naista sita Maalta, -
+                                    Neista neljasta küllasta: -
+                                    Säda Säred soudemaie, -
+                                    Labba Jallad laskemaie. -
+                                    Peig lät perra Möllaksi, -
+                                    Sädab Laiwa Saksa Male, -
+                                    Purjud pikkas Pihkeweta. -
+                                    Toob siis Naine Saksa Maalta. -
+                                </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <i>
+                                    Härtlichgeliebter, Brüderchen!
+
+                                    Du versprachst ohnbeweist zu leben,
+
+                                    Ohne Gehülsin zu springen,
+
+                                    Ungefreit zu sterben.
+                                    Da du lebtest und warst (allein)
+                                    Kamst du nicht fort ohne Weib.
+                                    Du unternahmst aus Holz ein Weid zu machen,
+                                    Aus Lähnenholz sie zu versertigen.
+                                    Aus Holz wird ein reines Weid,
+                                    Aus Lähnenholz ein Weißes,
+                                    Aus Apfelholz ein Grades,
+                                    Aus Nußbaumholz ein Schlantes.
+                                    Liebchen! Brüderchen!
+                                    Dren Dinge sind nöthig einem Weide,
+                                    In ihr eine zärtliche Seele,
+                                    Im Munde eine goldene (liebliche) Zunge,
+                                    Im Kopf Beeren=Verstand (angenehmer Wiß).
+                                    Liebchen, Brüderchen!
+                                    Du unternahmst es, aus Holz ein Weid zu machen,
+                                    Aus einer zähen Eiche sie zu schnißen,
+                                    Ihr Geficht zu vergülben,
+                                    Die Schultern zu versilbern.
+                                    Du schläfst (ben ihr) eine Nacht, du schläfst zwen.
+                                    Du giengst die dritte schlafen,
+
+                                    Fandest des Goldes Seiten kalt,
+                                    Hart war es unter seinen Urmen,
+                                    Grauerlich die Spuren des Silbers.
+                                    Liebchen! Brüdrechen!
+                                    Kriegst du kein Weib hier aus dem Lande,
+                                    Aus diesen vier Dörfern:
+                                    So richt die Beine zum Rudern,
+                                    Deine Fußblätter zum Lauf!
+                                    Der Bräut'gam geht ins Hintertheil mit dem Steuerruder,
+                                    Richtet das Schif nach Deutchland
+                                    Die langen Seegel nach Pleskau.
+                                    Da bringt er fich eine Gattin aus Deutschland.
+                                </i>
+</pre>
+                            </div>
+                        </div>
+                    </div> <!--poiss-->
+                    <div class="sisu nodisplay invisible">
+                        <br />
+                        <br />
+                        <div class="triple">
+                            <div>
+                                <pre>
+<b>
+    Hupeli tõlge
+</b>
+<i>
+    Härtlichgeliebter, Brüderchen!                            
+    Du versprachst ohnbeweist zu leben,
+    Ohne Gehülsin zu springen,                                
+    Ungefreit zu sterben.                                     
+    Da du lebtest und warst (allein)                          
+    Kamst du nicht fort ohne Weib.                            
+    Du unternahmst aus Holz ein Weid zu machen,               
+    Aus Lähnenholz sie zu versertigen.                        
+    Aus Holz wird ein reines Weid,                            
+    Aus Lähnenholz ein Weißes,                                
+    Aus Apfelholz ein Grades,                                 
+    Aus Nußbaumholz ein Schlantes.                            
+    Liebchen! Brüderchen!                                     
+    Dren Dinge sind nöthig einem Weide,                       
+    In ihr eine zärtliche Seele,                              
+    Im Munde eine goldene (liebliche) Zunge,                  
+    Im Kopf Beeren=Verstand (angenehmer Wiß).                 
+    Liebchen, Brüderchen!
+    Du unternahmst es, aus Holz ein Weid zu machen,           
+    Aus einer zähen Eiche sie zu schnißen,
+    Ihr Geficht zu vergülben,                                 
+    Die Schultern zu versilbern.                              
+    Du schläfst (ben ihr) eine Nacht, du schläfst zwen.       
+    Du giengst die dritte schlafen,                           
+    Fandest des Goldes Seiten kalt,                           
+    Hart war es unter seinen Urmen,                           
+    Grauerlich die Spuren des Silbers.                        
+    Liebchen! Brüdrechen!                                     
+    Kriegst du kein Weib hier aus dem Lande,                  
+    Aus diesen vier Dörfern:                                  
+    So richt die Beine zum Rudern,                            
+    Deine Fußblätter zum Lauf!                                
+    Der Bräut'gam geht ins Hintertheil mit dem Steuerruder,   
+    Richtet das Schif nach Deutchland                         
+    Die langen Seegel nach Pleskau.                           
+    Da bringt er fich eine Gattin aus Deutschland.            
+    Deine Segel hin nach Rußland,
+    Hol' ein Weib dir aus der Ferne.
+</i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+                                <b>
+Der Hagestolze
+J. G. Herder
+                                    </b>                                
+                                <i>
+Liebchen, Brüderchen, du sagtest:
+
+Daß man ohne Weib ja leben,
+Daß man ungefreiet sterben,
+Daß man könn' allein tanzen.
+Brüderchen, du lebtest also,
+Und du fandest dich gar einsam,
+Und du unternahmst aus Holze
+Dir ein Weibchen selbst zu bilden.
+Gar ein reines, gar ein Weißes,
+Gar ein grades, gar ein schlankes,
+Gar ei dauerhaftes Weibchen.
+Liebchen, Brüderchen, drei Dinge
+Sind zu einem Weibe nöthig,
+In ihr eine zarte Seele,
+Golden Zung' in ihrem Munde,
+Angenehm Witz im Haupte.
+
+Und du unternahmst dem Bilde
+
+Sein Gesichtchen zu vergülden,
+Seine Schultern zu versilbern
+Nahmst es nun in deine Arme
+Eine, zwei und drei der Nächste:
+Fandest kalt des Goldes Seiten
+Fandest hart ihrs untern Armen
+Grauerlich die Spur des Silbers.
+Liebchen, Brüderlein, drei Dinge
+Sind zu einem Weibe nöthig,
+Warme Lippen, schlanke Arme
+Und ein liebevoller Busen.
+Wähl' ein Weib dir aus den Mädchen,
+Wähl' ein Weib aus unserm Lande,
+Oder richte deine Füsse
+Hin zum Rudern, hin zum Laufen
+Richt' dein Schifchen hin nach Deutschland,
+                                    </i>
+</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sisu nodisplay invisible" id="arhiiv">
+                        <div>
+                            <embed src="media/arhiiv.pdf" type="application/pdf" width="100%" height="100%" />
+                        </div>
+                    </div>
+                    <div class="sisu nodisplay invisible">
+                        <div class="triple">
+                            <pre class="tekst"></pre>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <section class="piimjasUdu above">
+                <div class="container invisible title">
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section> <!--1-->
+            <section class="below laulupidu">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                1779. aastal avaldati eesti laulud ühes teiste rahvaste lauludega <span>
+                                    J. G. Herderi
+                                </span> rahvalaulukogus "Volkslieder" (1778/79). Kogus on kõrvuti
+                                suurrahvaste kirja pandud laulud väikerahvaste suulise loominguga. Oma
+                                riigita rahvaste jaoks algatas Herderi rahvalaulukogu (ja tema ideed
+                                üldisemalt) rahvusliku ärkamise ja enesevabastamise protsessi.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section><!--2-->
+            <section class="below piimjasUdu">
+                <div class="container invisible">
+                    <div class="ruut">
+                        <h5>
+                            Herder, kes esimesena õpetas vastuvõtliku hingega kuulama rahvaste hääli
+                            ja neis jumala hinge ära tundis, andis esimese tõuke eesti rahvalaulude
+                            tähelepanemiseks ja kogumiseks.
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                Villem Reiman 1900
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below riia">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Herder saabus Liivimaale 1764. aasta novembris peale õpinguid Köningsbergi
+                                ülikoolis. Järgnevad neli ja pool aastat elas Herder Riias, kus oli
+                                toomkoolis õpetaja ning hiljem pastor. "Herderlik sünnib just Riias",
+                                väidab Kurt Stavenhagen. Nimelt Liivimaal puutus Herder kokku kohalike
+                                elanikega ning sai osa nende ehedast laulmisest. Esile on toodud 1765.
+                                aasta jaanipäev, mil Herderil õnnestus pidustustest osa saada Riia lähedal
+                                maamõisas sõpra külastades.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below talupojadPidu">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Kas teate ka, et mul on endal olnud juhus näha selle vana metsiku laulu,
+                            rütmi ja tantsu elavaid riismeid elavate rahvaste esituses, kellelt meie
+                            kombed pole veel täielikult jõudnud välja juurida keelt, laule ja kombeid,
+                            et anda asemele midagi väga kärbitut või üleüldse mitte midagi.
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                J. G. Herder 1773
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below kogu">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                1773. aastal andis Herder trükki oma esimese rahvalaulukogu "Alte
+                                Volkslieder". Kogu sisaldas vaid kirjalikest allikatest pärit laule, mis
+                                olid organiseeritud nelja raamatusse. Igal raamatul oli eraldi iseseisev
+                                eessõna. Eesti lauludest kaasati kogusse <a href=javascript:info(0)>"Jörru! Jörru!"</a>, mille Herder
+                                avastas Königsbergi ajalehest 8. juunil 1764. aastal. Herderi
+                                rahvalaulukogu sai palju ilmumiseelset kriitikat ning seda mõnitati
+                                avalikult. 1774. aastal tõmbas Herder pilkehirmus piduri kogu ettevõtmisele
+                                ja kogu jäi avaldamata.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below käsikiri">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Kogu ilmumatajäämist on kahetsetud temas sisalduvate noorusvärskete ja
+                                julgete eessõnade tõttu. Esimese ja neljanda raamatu eessõnad on
+                                esmakordselt tõlgitud eesti keelde ja nendega on võimalik tutvuda siin:<br />
+                                <a href="media/Eessõna - tõlkinud Reet Bender ja Vahur Aabrams, toimetanud Vahur Aabrams.pdf" target="_blank">Esimene raamat</a><br />
+                                <a href="media/Põhjala laulud - tõlkinud Reet Bender ja Vahur Aabrams, toimetanud Vahur Aabrams.pdf" target="_blank">Neljas raamat</a><br />
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below kogu">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Me asume langeval mäenõlval: pool sajandit veel ja on liiga hilja. [...]
+                            Rahva kogu elava mõttelaadi riismed veerevad järjest kiirema hooga unustuse
+                            kuristikku. Nõndanimetatud kultuuri valgus õgib nagu vähk kõike enda ümber!
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                J. G. Herder 1773
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below liivimaaKaartB">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Herderi rahvalauluentusiasm ei näidanud raugemise märke. Mõte kõigi
+                                rahvaste hääli ühendavast antoloogiast võttis üha konkreetsema kuju ning
+                                Herder asus kavandama uut ja varasemast põhjalikumat kogu. Sinna juurde
+                                kuulus üleskutse Liivimaa haritlastele koguda eestlaste ja lätlaste
+                                rahvalaule.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below üleskutse">
+                <div class="container invisible  piimjasUdu">
+                    <div class="valgeRuut__inner">
+                        <div>
+                            <h1>
+                                Herderi metoodilised juhiseid rahvalaulude kogumiseks:
+                            </h1>
+                        </div>
+                        <div class="triple">
+                            <div class="triple__child">
+                                <h2>
+                                    „Kirjutada tuleb nii, nagu nad on, algkeeles, küllaldase selgitusega,
+                                    pilkamata ja maha tegemata, ilustamata ja õilistamata, kui võimalik, siis
+                                    meloodiaga ja kõige sellega, mis rahva elu juurde kuulub“.
+                                </h2>
+                            </div>
+                            <div class="triple__child__portrait herderPortree--liikuv">
+                            </div>
+                            <div class="triple__child">
+                                <h2>
+                                    „… mitte rääkida ise, vaid lasta rääkida: mitte küsida, milleks see oleks
+                                    hea, vaid esitada seda, olgu ta hea või mitte: mitte ilustada: mitte
+                                    religioonimütsi pähe suruda või klassikalisest maitsest lähtuvalt
+                                    moonutada, vaid näidata, nagu ta on, aga truuduse, lusti ja armastusega.”
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below">
+                <div class="container invisible liivimaaKaart">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Herder pöördus palvega rahvalaule koguda Põltsamaa pastori A. W. Hupeli
+                                poole. Herderi pöördumisest ei ole alles jäänud ühtki kirja, kuid Hupeli
+                                juhendatud rahvalaude kogumisprotsessist on säilinud mitmeid kirju, mille
+                                vahendusel on võimalik aimdust saada ettevõtmise olemusest. Eesti laulud
+                                kogus Hupel ise, kuid läti laulude saamiseks edastas palve laule koguda
+                                Riias tegutsevatele sõpradele kirjastajale Johann Hartknochile ja
+                                loodusuurijale Jakob Benjamin Fischerile, kes omakorda pöördusid Võnnu
+                                praosti Heinrich Baumanni ja Āraiši pastori Gustav Bergmanni poole.
+                                <a href="javascript:info(1)"></a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below kaardirakendus">
+                <div class="container invisible piimjasUdu">
+                    <img src="media/kaart.jpg" usemap="#image-map" style="">
+                    <map name="image-map">
+                        <area target="" alt="Riia" title="Riia" href="javascript:info(2)" coords="250,668,100" shape="circle">
+                        <area target="" alt="Võnnu" title="Võnnu" href="javascript:info(3)" coords="620,670,100" shape="circle">
+                        <area target="" alt="Põltsamaa" title="Põltsamaa" href="javascript:info(4)" coords="1166,140,100" shape="circle">
+                    </map>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below käsikiri2">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                A. W. Hupeli vahendusel sai Herder lühikese ajaga 79 läti ja 8 eesti rahvalaulu koos võimalikult
+                                täpsete saksakeelsete tõlgete ja kommentaaridega. Eesti lauludest tegi Herder Hupeli tõlkele
+                                tuginedes oma versioonid ja lisas lauludele pealkirjad. Liivimaalt saadetud eesti ja läti laulude
+                                <a href="javascript:info(13)">originaaltekstid</a> on Herderi isikuarhiivs Berliinis. Õpetatud Eesti Selts avaldas 1896. aastal
+                                Hupeli poolt saadetud käsikirjad koos märkustega.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below toredadMaakad">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Eesti laulude tutvustamisel tugines Herder peamiselt Hupeli
+                            tähelepanekutele, kuid erinevalt Hupelist, kes nimetas rahvalaule
+                            „vanaeitede sünnitisteks” ega omistanud neile mingit esteetilist
+                            väärtust, näeb Herder neis spontaanset luuleandi, esitades
+                            neid kõrvuti teiste rahvaste lauludega kui kõige ehedamat luulet, mis ei ole
+                            sündinud õpetatud luuletaja kirjutuslaua taga, vaid elava mulje, tundmuse
+                            silmapilgust.
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                Liina Lukas 2011
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below herderHupel">
+                <div class="container invisible">
+                    <div class="double">
+                        <div class="triple">
+                            <div class="triple__child triple__child__portrait hupelPortree">
+
+                            </div>
+
+                            <div class="triple__child text--top">
+                                <h2>
+                                    “Eesti laulud on vanaeitede sünnitised; pole ime, et nad on palju
+                                    mõttetumad kui mõnede laadalaulikute omad, kes olid ometi auväärsed
+                                    kingsepad jne.”
+                                </h2>
+                            </div>
+                            <div class="triple__child text--top">
+                                <h2>
+                                    “Nende stroofide ilu kohta ei ole vaja
+                                    tõendust, siin on tegu rahva ehedate, tõeliste, loomupäraste lauludega,
+                                    mitte laulu abstraktse ideaaliga.”
+                                </h2>
+                            </div>
+                            <div class="triple__child triple__child__portrait herderPortree">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below herder">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                1778. ja 1779. aastal andis Herder kahes köites välja pikalt kavandatud
+                                rahvalaulukogu “Volkslieder”. Esimeses köites on kolm raamatut, igas
+                                raamatus 24 laulu. Teises köites on samuti kolm raamatut, kuid igas
+                                raamatus 30 laulu. Kokku 162 laulu 18 eri rahvalt. Laulud on organiseeritud
+                                teemade kaupa, nii et eri rahvaste laulud on segamini. Herder nägi ette, et
+                                tema kogu tuleb lugeda algusest lõpuni järjest. Sel moel lugeja muutub läbi
+                                erinevate rahvaste laulude empaatiavõimelisemaks.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below metsikud">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Kas ei tuleks poolmetsikute või metsikute (rahvaste) juures tegeleda mitte üksi
+                            nina, kuju või välise elulaadi ebaoluliste osadega! Mitte üksi rääkida sellest,
+                            mida nende maa sisse toob ja kuidas neid paremini orjastada, ära kasutada, piinata….
+                            Rääkida mitte ainult sellest, mis nad ei ole – inimesed nagu meie! lihvitud (policierte)
+                            rahvad! Ja kristlased! – vaid sellest, mis nad on? Anda truu pilt nende mõttelaadist,
+                            tundmustest, hingelaadist, keelest… meil tuleb vaadata nende laule!
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                J. G. Herder
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below toredadMaakad">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Eesti laulude hulgast valis Herder oma kogu ilmestama <a href=javascript:info(5)>
+                                    neli
+                                    pulmalaulukatkendit
+                                </a>, millele pani pealkirja <a href=javascript:info(6)>
+                                    “Einige Hochzeitlieder“
+                                </a>. Pulmalaulule
+                                järgneb kontrastina <a href=javascript:info(7)>
+                                    kaebelaul
+                                </a>, milles kurdetakse pärisorja raske saatuse
+                                üle. Herder pani sellele loole dramaatilise pealkirja <a href=javascript:info(8)>
+                                    „Klage über die Tyrannen der Leibeigenen“
+                                </a>. Kolmandasse raamatusse, mis näitab inimest
+                                võitluses, on Herder pannud <a href=javascript:info(9)>
+                                    sõjalaulu
+                                </a> peakirjaga <a href=javascript:info(10)>
+                                    „Lied vom Kriege“
+                                </a>. Lisaks tõi Herder eesti laule tutvustavas osas ära <a href=javascript:info(0)>"Jörru! Jörru!"</a> laulu.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below enneTeist">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Raamatuid, kunste, linnu, tehtud seltskondlikku mõtlemisviisi neil veel ei ole:
+                            ja see, milles väljendub nende loomulik mõttelaad, sai olla vaid see, mida Jumal
+                            oli neile andnud: keel, heli, liikumine, kirjeldus, proportsioon, tants: ja see,
+                            mis kõik selle kokku sidus - laul.“
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                J. G. Herder
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below herder">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Herder andis 1799. aastal teada, et plaanib oma rahvalaulukogule teist
+                                täiendatud trükki. Paraku ta oma tööga enne surma 1803. aastal lõpule ei
+                                jõudnud. Johannes Müller koos Herderi abikaasa Carolinega viis töö lõpule.
+                                1807. aastal sai valmis teine trükk, millel pealirjaks „Stimmen der Völker
+                                in Liedern“ ("Rahvaste hääled lauludes"). Varasema kogu temaatiline
+                                ülesehitus asendub geograafilise printsiibiga. Teise trükki lisandus veel
+                                üks <a href="javascript:info(11)">eesti laul</a>, millele Herder oli oma versiooni teinud <a href="javascript:info(12)">
+                                    „Der Hagestolze“
+                                    ("Vanapoiss")
+                                </a>..<br /><br />
+
+                                Kui esimene trükk võeti vastu tagasihoidlikult, siis teine trükk sai suure
+                                menu osaliseks.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Niisiis oli Herder see, kes tõi eesti ja läti rahvalaulu maailmakirjandusse, esitades seda
+                            kui tõsiselt võetavat ja võrdväärset kultuurilist pärandit ning enamgi veel – tõstis rahvalaulu
+                            otse žanritehierarhia tippu.
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                Liina Lukas 2016
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--<section class="below herder">
+        <div class="container invisible piimjasUdu">
+            <div class="ruut">
+                <video width="720" height="404" controls>
+                    <source src="media/video.mp4" type="video/mp4">
+                </video>
+                <p>
+                    Joonas Hellermaa tutvustab kultuurisaates Mi Herderi isikuarhiivi
+                    Berliinis. <br />
+                    Eesti laulude originaaltekste näitab talle Kaspar Renner.<br />
+                    http://arhiiv.err.ee/guid/20180301224738801000300112290E2BA238B440000005008B00000D0F003771
+                </p>
+            </div>
+            <div class="nuppAlla">
+                <a href="javascript:increment()">
+                    <img src="media/nuppAlla.svg" />
+                </a>
+            </div>
+        </div>
+    </section>-->
+            <section class="below metsikud">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Tuleb siiski tõdeda, et Herderi rahvalaulukogu ei muutnud päevapealt
+                                üldsuse suhtumist. Ometigi andis Herderi huvi ja käsitlus rahvalauludele
+                                auväärsema kuma ning järk-järgult hakati neisse suhtuma suurema
+                                lugupidamisega. Terve 19. sajandi vältel on Herderi ideed innustanud eesti
+                                rahvalaukogujaid ja uurijaid. Jakob Hurt, kelle panus eesti rahvaluule
+                                talletamisse on hindamatu, toetus Herderi pärandile koostades kuulsa
+                                üleskutse rahvaluulet koguda ("Paar palvid Eesti ärksamaile poegadele ja
+                                tütardele" 1888). Hurt on meenutanud, et gümnaasiumis õppides tutvus ta
+                                just nimelt Herderi antoloogia vahendusel eesti rahvalauluga.
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below marx">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Herderi kogu vahendusel on eesti rahvalaulud jõudnud mitmetesse
+                                huvitavatesse kohtadesse. Näiteks Karl Marx kasutas eesti
+                                pulmalaulukatkendit ja “Jörru! Jörru!“ laulu osana armastuskirjast, mille
+                                saatis oma kihlatule. F. R. Kreutzwald kasutas sõjalaulu motiivi
+                                “Kalevipojas” ning Karl Immermann valis laulu “Jörru! Jörru!” oma
+                                ajaloolisse-triloogiasse “Alexis”. Herderi kogu vahendusel on laulud jõudnud
+                                ka inglise keelde.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="below tormis">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Kogutud eesti laulud kuulusid suulisse traditsiooni. Eestis nimetatakse
+                                neid laule regivärsiliseks rahvalauluks. Regilaul on alguse saanud ajal,
+                                mil läänemeresoome rahvad olid veel vahetus kontaktis, sest peaaegu kõigile
+                                on regivärsiline rahvalaul omane. Regilaulule on iseloomulik mõttekordus,
+                                algriim ja kindel värsimõõt. Regilaul koosneb kolmest võrdselt tähtsast
+                                osast: sõnad, viis ja esitus.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="below">
+                <div class="container invisible piimjasUdu">
+                    <div class="ruut">
+                        <h5>
+                            Regilaul koosneb värssidest ja igas värsis on kaheksa silpi. Need kaheksa silpi vastavad
+                            kaheksale toonile. Väga lihtne. „Kui ma hakkan laulemaie.“ Selline on regilaulu aatom.
+                            Regilaul voolab ilma katkemiseta, veereb pausideta. Sedasi kordub kaheksasilbine ülesehitus
+                            ikka ja jälle. Regilaul on nagu jõgi, millega laulja liitub. Me hüppame voolavasse jõkke,
+                            jõgi liigub edasi, hüppame sealt välja, jõgi liigub ikka edasi.
+                        </h5>
+                        <div class="author">
+                            <h3>
+                                Veljo Tormis
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="nuppAlla">
+                        <a href="javascript:increment()">
+                            <img src="media/nuppAlla.svg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="below">
+                <div class="container invisible ">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Regivärsilisele rahvalaulule on iseloomulik pidev muutumine ja kohanemine
+                                uute oludega. Värsiridasid saab liita kokku ja lahutada ning seeläbi luua
+                                uusi väljendusviise vastavalt olukorrale. Et paremini suunda hoida
+                                regilaulu maailmas jagatakse ühe laulu eri variandid laulutüüpi, seejuures
+                                võivad ühes laulus olla mitme laulutüübi elemendid. Laul pärisorja raskest
+                                elust kuulub laulutüüpi <a href="javascript:info(14)">„Oleks minu olemine“</a> või „Mõis külas“. Laul sõjast
+                                kuulub laulutüüpi <a href="javascript:info(15)">„Venna sõjalugu“</a> ja on eesti üks tuntumaid lüroeepilisi
+                                laule, mille eri variante kogutud üle 700. Laul puust naise meisterdamisest
+                                kuulub laulutüüpi <a href="javascript:info(16)">„Kuldnaine“</a> ja seda on kogutud ligi 150 varianti.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="below">
+                <div class="container invisible piimjasUdu">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Eesti laulude tänapäevased variandid.
+                                <br />
+                                <br />
+                                Venna sõjalugu:
+                            </h2>
+                            <p>
+                                <a href="https://youtu.be/6ofYMifkHkg" target="_blank">Collage - Venna Sõjalugu</a>
+                            </p>
+                            <p>
+                                <a href="https://youtu.be/Q20zfJCFUvE" target="_blank">Paldiski Gümnaasiumi ansambel - Venna sõjalugu</a>
+                            </p>
+                            <p>
+                                <a href="https://arhiiv.err.ee/vaata/etv-live-oort" target="_blank">ETV live: Oort</a>
+                                - "Oort" algab 42.5
+                            </p>
+                            <p>
+                                <a href="https://muzlan.top/en/track/371745446_456451694" target="_blank">Nikns Suns - Venna Sõjalugu</a>
+                            </p>
+                            <br />
+                            <h2>
+                                Kuldnaine:
+                            </h2>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=-EGq7SUVSAA" target="_blank">Sireli - Kuldnaine</a>
+                            </p>
+                            <p>
+                                <a href="https://arhiiv.err.ee/vaata/eesti-ballaadid-168821/similar-118896" target="_blank">Eesti ballaadid</a>
+                                - "Kuldnaine" algab 55.5.
+                            </p>
+                            <p>
+                                <a href="https://www.youtube.com/watch?v=Mq9fwlmhyVY&list=PLoIZT-EcmO87EGTf4lJ5x5gz_NDwVfdbr&index=5" target="_blank">Kuldnaine I</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="below viimane">
+                <div class="container invisible">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                Eestlased peavad end laulurahvaks. Laul ja lauluga väljendatav on olnud
+                                eestlaste viis kasvatada ühtsustunnet rahvusena ning väljendada
+                                eneseksolemist. Rahvuslikul ärkamisajal sai laulust võimas vahend
+                                rahvustunde loomiseks ja see viis esimese üldlaulupeoni 1869. aastal.
+                                Sellest ajast alates on laulurahvaks olemist ikka ja taas kinnitatud.
+                                Järjepidevalt taasluues ja kinnitades laulurahva kuvandit.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="below farBack">
+                <div class="container invisible piimjasUdu ">
+                    <div class="valgeRuut__inner scroll">
+                        <h2>Kasutatud kirjandus:</h2>
+<pre>
+Acht estnische Volkslieder aus Herders Nachlaß und dreizehn aus Wielands Teutschem Merkur (1787) nebst mehreren alten Hochzeitsgedichten
+in estnischer Sprache. – Verhandlungen der gelehrten Estnischen Gesellschaft uz Dorpat. Dorpat 1896, Bd. 16, lk. 239–267.
+<b>Jaago, Tiiu</b> 1993. Kuldnaine. Tartu: Tartu Ülikool, lk 9–11. 
+<b>Jürjo, Indrek</b> 2004. Liivimaa valgustaja August Wilhelm Hupel 1737–1819. Tallinn: Riigiarhiiv.
+<b>Kelch. Christian</b> 2004 [1695]. Liivimaa ajalugu. Tartu: Eesti Ajalooarhiiv, lk 17–18.
+<b>Laugaste, Eduard</b> 1976. Saaksin ma saksa sundijaks. Tallinn: Eesti Raamat, lk 227–230.
+<b>Lukas, Liina</b> 2011. Eesti rahvaluule baltisaksa luule inspiratsiooniallikana. Keel ja Kirjandus, nr 8–9, lk 675–697.
+<b>Lukas, Liina</b> 2016. Herder keelest ja kirjandusest. Balti kirjakultuuri sümpoosioni järelkaja. – Keel ja Kirjandus, nr 1, lk 41–44.
+<b>Olesk, Peeter</b> 1986. Eesti-saksa kirjandusalased kontaktid XIX saj. Alguses. Eesti rahvalaul ja K.
+Immermanni triloogia „Alexis“. Tartu: TRÜ Tometised. Vihik 727, lk 118–121.
+<b>Paškevica, Beata</b> 2016. Läti rahvalaulud Johann Gottfried Herderi kogus. 
+Mäetagused, nr 65. – https://www.folklore.ee/tagused/nr65/pashkevica.pdf  (15. 05. 2019).
+<b>Rauch, Georg</b> 1939. Üks eesti rahvalaul hilisema humanisimi huviobjektina. – Ajalooline Ajakiri, nr 1, lk 39–43.
+<b>Šmidchens, Guntis</b> 2014. The Power of Song. Nonviolent national culture in the Baltic singing revolution.
+ Seattle ; London : University of Washington Press ; Copenhagen : Museum, lk 24– 9.
+<b>Tedre, Ülo</b> 1961. Eesti rahvalauludest K. Marxi albumis. – Keel ja Kirjandus, nr 9, lk 517–528.
+<b>Tedre, Ülo, Veljo Tormis</b> (koost.) 1997. Regilaulik. Tallinn: SP Muusikaprojekt, lk 4–11.
+<b>Veljo Tormis</b>. http://www.regilaul-film.com/est/taustainfo.html#zitate. 
+<b>Undusk, Jaan</b> 1995. Hamanni ja Herderi vaim eesti kirjanduse edendajana: sünekdohhi printsiip. – Keel ja Kirjandus, nr 6, lk 577–587.
+<b>J. G. Herderi tsitaadid</b> on Liina Lukase tõlgitud eesti keelde ning pärinevad artiklist, mis peatselt ilmub.
+A companion to the works of Johann Gottfried Herder 2008, 2010. Toimetanud Hans Adler ja Wulf Köpke. Rochester (N.Y.) : Camden House.
+<b>Herder, Johann Gottfried, Philip V. Bohlman</b> 2017. Song Loves the Masses. Herder on Music and Nationalism. University of California Press.
+<b>Kuutma, Kristin</b> 1998.Kultuuriidentiteet, rahvuslus ja muutused laulutraditsioonis. Mäetagused nr. 7. https://www.folklore.ee/tagused/nr7/kuutma.htm
+<b>Ojamaa, Triinu, Kristel Karu-Kletter</b> 2014. Diasporaa-eestlaste enesekuvand muutuvas maailmas. Methis nr. 13.
+http://www.folklore.ee/regilaul/andmebaas/
+http://www.regilaul-film.com/est/taustainfo.html#liedtexte
+<b>Herder Nachlass XIV: 48</b>. Herderi isikuarhiiv, Berliini Riigiraamatukogu Preisi kultuuripärandi käsikirjade osakond 
+(Staatsbibliothek zu Berlin Preußischer Kulturbesitz).
+</pre>
+
+                        <h2>Kasutatud pildid:</h2>
+                        <pre>
+<b>Schlichting, Ernst Hermann</b> 1842. Liivimaa talurahva pulm, EKM j 9 M 392, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/1448867
+<b>Buddeus, Carl Friedrich Christian</b> 1836. Kopli rand, EKM j 190:34 G 2257, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/1211678
+<b>Dücker, Eugen Gustav</b> 1860. Saaremaa maastik, EKM j 190:369 M 701, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/249693
+<b>Hefftler, Karl</b>. Luhamaastik, EKM j 190:156 M 573, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/248680
+<b>Ungern-Sternberg, Carl</b> 1829. Vaade Riiale, AM _ 6834:1 G 1036:1, Eesti Ajaloomuuseum SA, http://www.muis.ee/museaalview/2819868
+<b>Schlichting, Ernst Hermann</b> 1850. Lehma karja ajamine, EKM j 7928 G 7754, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/1479807
+<b>Schlichting, Ernst Hermann</b> 1855. Vihterpalu tants, EKM j 153:1086 G 1586, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/1483685
+<b>Kits, Elmar</b> 1948. Üldlaulupidu., ERM K 5367, Eesti Rahva Muuseum, http://www.muis.ee/museaalview/774100
+<b>Homann, Johann Baptist</b> (ligikaudu 1700-1720). Ducatum Livoniae et Curlandiae, KMM GR 1649, 
+Tartu Ülikooli kunstimuuseum, http://www.muis.ee/museaalview/3026560
+<b>Roux, Jacob Christian Wilhelm</b> 1800. Herders Lieblingsplatz auf dem Ettersberge, Tartu Ülikooli raamatukogu, https://dspace.ut.ee/handle/10062/6150 
+<b>Hagen, August Matthias</b> 1800. Suedliche Ansicht der Stadt Wenden, Tartu Ülikooli raamatukogu, https://dspace.ut.ee/handle/10062/23395 
+<b>Brotze, Johann Christoph</b>. Eestlaste rõivastus Pärnu ümbruses, 
+https://et.wikipedia.org/wiki/Fail:Eestlaste_r%C3%B5ivastus_P%C3%A4rnu_%C3%BCmbruses,_Brotze.jpg 
+<b>Anonüümne autor</b> 1866. Liv,- Est- & Kurland. Tartu Ülikooli raamatukogu, https://dspace.ut.ee/handle/10062/8642 
+<b>Olearius, Adam</b> 1647. Mare Balthicvm oder Ost See, Tartu Ülikooli raamatukogu, https://dspace.ut.ee/handle/10062/2877 
+<b>Stavenhagen, Wilhelm Siegfried</b> 1860. Vaade Riiale muulilt, AM _ 14140 G 6907:11, Eesti Ajaloomuuseum SA, http://www.muis.ee/museaalview/2502876
+<b>Tundmatu baltisaksa kuntsnik</b>. Tantsustseen, EKM j 190:632 M 894, Eesti Kunstimuuseum SA, http://www.muis.ee/museaalview/1447475
+<b>Graff, Anton</b> 1785. Porträt Johann Gottfried Herder, https://nat.museum-digital.de/index.php?t=objekt&oges=917 
+<b>Darbes, Joseph Friedrich August</b>. A.W.Hupel. Portree., AM _ 13530 G 4723, Eesti Ajaloomuuseum SA, http://www.muis.ee/museaalview/3609822
+Videod on ETV arhiivist.                            
+</pre>
+                    </div>
+                </div>
+            </section>
+            <section class="below">
+                <div class="container invisible ">
+                    <div class="valgeRuut">
+                        <div class="valgeRuut__inner">
+                            <h2>
+                                E-näituse koostaja: Katrin Angel<br />
+                                Tehniline teostus: Andi Angel
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
