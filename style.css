@@ -1,7 +1,12 @@
 @charset "UTF-8";
-/* 
-@import "";
-*/
+.preloader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: dimgray;
+  z-index: 9999;
+}
+
 .preloaderFront {
   position: absolute;
   top: calc((100%-40px)/2);
@@ -139,12 +144,55 @@ embed {
   width: 1250px;
 }
 
-.preloader {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: dimgray;
-  z-index: 9999;
+.above {
+  top: -100%;
+}
+
+.center {
+  top: 0;
+  left: 0;
+  transition-duration: 2s;
+}
+
+.below {
+  top: 100%;
+  transition-duration: 2s;
+}
+
+.visible {
+  opacity: 1;
+  transition-duration: 2s;
+}
+
+.longVisible {
+  opacity: 1;
+  transition-duration: 6s;
+}
+
+.invisible {
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+.longInvisible {
+  opacity: 0;
+  transition-duration: 4s;
+}
+
+.delay {
+  transition-delay: 2s;
+}
+
+.nodisplay {
+  display: none;
+}
+
+.display {
+  display: normal;
+}
+
+.scroll {
+  overflow-y: scroll;
 }
 
 .mainWindow {
@@ -204,57 +252,6 @@ section {
   height: 100%;
   width: 100%;
   top: 0;
-}
-
-.above {
-  top: -100%;
-}
-
-.center {
-  top: 0;
-  left: 0;
-  transition-duration: 2s;
-}
-
-.below {
-  top: 100%;
-  transition-duration: 2s;
-}
-
-.visible {
-  opacity: 1;
-  transition-duration: 2s;
-}
-
-.longVisible {
-  opacity: 1;
-  transition-duration: 6s;
-}
-
-.invisible {
-  opacity: 0;
-  transition-duration: 2s;
-}
-
-.longInvisible {
-  opacity: 0;
-  transition-duration: 4s;
-}
-
-.delay {
-  transition-delay: 2s;
-}
-
-.nodisplay {
-  display: none;
-}
-
-.display {
-  display: normal;
-}
-
-.scroll {
-  overflow-y: scroll;
 }
 
 .valgeRuut {
