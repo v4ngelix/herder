@@ -155,7 +155,16 @@ function info(input) {
     peidaSisu();
     request(input);
 
-    if (input < 13) { input = 1 };
+    switch (input) {
+        case 13:
+
+            break;
+        default:
+            input = 1
+            break;
+
+    };
+
     current = input;
     enabled = false;
     aside.classList.replace("nodisplay", "display");
