@@ -14,9 +14,11 @@ read = 0;
 
 
 document.addEventListener("load", pageLoaded());
+
 function pageLoaded() {
     setTimeout(pageStart, 2500);
 }
+
 function pageStart() {
     preloader.classList.replace("visible", "longInvisible");
     farBack.classList.replace("invisible", "longvisible");
@@ -24,10 +26,12 @@ function pageStart() {
     pages[0].classList.replace("above", "center");
     setTimeout(hidePreloader, 3000);
 }
+
 function hidePreloader() {
     container[0].classList.remove("delay");
     preloader.style.display = "none";
 }
+
 function decrement() {
     if (read > 0) {
         pages[read].classList.replace("center", "below");
@@ -35,8 +39,7 @@ function decrement() {
         let fadeItem = pages[read].querySelector(".container");
         if (fadeItem === null) {
             //do nothing
-        }
-        else {
+        } else {
             fadeItem.classList.replace("invisible", "visible");
         }
 
@@ -44,8 +47,7 @@ function decrement() {
 
         if (preFadeItem === null) {
             //do nothing
-        }
-        else {
+        } else {
             preFadeItem.classList.replace("visible", "invisible");
         }
     }
@@ -53,6 +55,7 @@ function decrement() {
         up.classList.replace("visible", "invisible");
     }
 }
+
 function subIncrement() {
     read += 1;
     pages[read].classList.add("center");
@@ -64,19 +67,18 @@ function subIncrement() {
 
     if (preFadeItem === null) {
         //do nothing
-    }
-    else {
+    } else {
         preFadeItem.classList.replace("visible", "invisible");
     }
 }
+
 function increment() {
     if (read < pages.length - 1) {
         subIncrement();
         let fadeItem = pages[read].querySelector(".container");
         if (fadeItem === null) {
             //do nothing
-        }
-        else {
+        } else {
             fadeItem.classList.add("visible");
             fadeItem.classList.replace("invisible", "visible");
         }
@@ -86,7 +88,7 @@ function increment() {
     }
 }
 
-window.addEventListener("keydown", function (keydown) {
+window.addEventListener("keydown", function(keydown) {
     let key;
     key = keydown.keyCode;
     if (enabled === true && paused === true) {
@@ -101,23 +103,22 @@ window.addEventListener("keydown", function (keydown) {
 
         console.log("current page: " + read);
         paused = false;
-        setTimeout(function () { paused = true; }, 1000);
+        setTimeout(function() { paused = true; }, 1000);
     }
 });
-window.addEventListener("wheel", function (wheel) {
+window.addEventListener("wheel", function(wheel) {
     let scroll;
     scroll = wheel.deltaY;
     if (enabled === true && paused === true) {
         if (scroll < 0) {
             decrement();
-        }
-        else {
+        } else {
             increment();
         }
 
         console.log("current page: " + read);
         paused = false;
-        setTimeout(function () { paused = true; }, 1000);
+        setTimeout(function() { paused = true; }, 1000);
     }
 });
 
@@ -131,7 +132,7 @@ let tekst = document.querySelector(".tekst");
 let getInfo = new XMLHttpRequest();
 
 function request(input) {
-    getInfo.onreadystatechange = function () {
+    getInfo.onreadystatechange = function() {
         if (this.readystate == 4 || this.status == 200) {
             tekst.innerHTML = getInfo.responseText;
             console.log("jee");
@@ -147,13 +148,14 @@ function request(input) {
 
 function peidaSisu() {
     for (let n = 0; n < sisu.length; n++)
-    sisu[n].classList.replace("visible", "invisible");
+        sisu[n].classList.replace("visible", "invisible");
 }
+
 function info(input) {
     peidaSisu();
     request(input);
 
-    if (input > 13) { input = 14 };
+    if (input < 13) { input = 14 };
     current = input;
     enabled = false;
     aside.classList.replace("nodisplay", "display");
@@ -169,15 +171,17 @@ function peida() {
     enabled = true;
     peidaSisu();
     container[read].classList.replace("invisible", "visible");
-    setTimeout(nodisplay, 3000);  
+    setTimeout(nodisplay, 3000);
 }
+
 function display() {
-    container[read].classList.replace("visible", "invisible"); 
+    container[read].classList.replace("visible", "invisible");
     lisainfo.classList.replace("invisible", "visible");
     aside.classList.replace("asideDefault", "asideOut");
 
     sisu[current].classList.replace("invisible", "visible");
 }
+
 function nodisplay() {
     if (enabled === true) {
         lisainfo.classList.replace("display", "nodisplay");
