@@ -9,7 +9,7 @@
     z-index: 9999;
 }
 
-@media (max-width:100px) {
+@media only screen and (max-width: 100px) {
     .mobile_support {
         display: block;
         width: 100%;
