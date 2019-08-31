@@ -1,0 +1,123 @@
+<br />
+                    <br />
+                    <p>
+                        Hupel on Herderi saatnud ka ühe sõjalaulu, milles õde annab vennale õpetusi, kuidas sõjas ellu jääda. Laul on huvitav oma sõjavastase hoiaku poolest.
+                    </p>
+                    <div class="triple">
+                        <div>
+                            <pre>
+                                <i>
+                                        Jo todi söa sannumed,
+                                        Waeno keeled kanneti.
+                                        Kes lähhäb meilta söddaje?
+                                        Keigenorem ella welle,
+                                        Keigenorem keige körgem;
+                                        Keige körgemad kübbarad
+                                        Keige uhkemad hobbosed,
+                                        Keige saksemad saddulad.
+
+                                        Ehhitellin ella wenda
+                                        Ehhitellin öppetellin:
+                                        Minno ella wellekenne,
+                                        Ärra sa aiago eele!
+                                        Ärra sa jägo järrele!
+                                        Essimessed elpitasse,
+                                        Tagumissed tappetasse.
+                                        Kerita kesset söddada,
+                                        Liggi lippo kandiatte!
+                                        Keskmissed koddo tullewad.
+                                        Welli tulli söast koddoja;
+                                        Läks ta issa ukse ette:
+                                        Tulle issa, tunne poega!
+                                        Tulli issa ei tunnud poega.
+                                        Läks ta emma ukse ette:
+                                        Tule emma tunne poega!
+                                        Tulli emma ei tunnud poega.
+                                        Läks ta wenna ukse ette:
+                                        Tulle wend ja tunne wenda!
+                                        Tulli wend ei tunnud wenda.
+                                        Läks ta öe ukse ette:
+                                        Tulle ödde tunne wenda!
+                                        Tulli ödde, tundis venda!
+                                        Kust ma tundsin wenna nore?
+                                        Lühhiteste rideesta,
+                                        Maddalaste manteleste.
+                                        Minno ella wennakenne,
+                                        Ütle mul söa sannumed:
+                                        Kuidas söas oldanekse?
+                                        Kas so söas naene armas?
+                                        Naene armas, kas kallis?
+                                        Oh, minno ödde maddala,
+                                        Pühhi mo sabad sawwista,
+                                        Eiga moöka urmudesta
+                                        Siis ma hakkan räkimaie.
+                                        Oh minno ödde maddala,
+                                        Polle söas naene armas,
+                                        Naene armas, kasa kallis;
+                                        Söas kallis haljas moöka,
+                                        Kaunis kange pea hobbone,
+                                        Kes peästab mehhe söasta
+                                        Wainu moökade wahheta
+                                        Pissi kerketa käesta.
+                                    </i>
+</pre>
+                        </div>
+                        <div>
+                            <pre>
+                                <i>
+                                        Schon ward die Kriegspost gebracht,
+                                        Feindschaft=Gerede getragen.
+                                        Wer von uns geht wieder in Krieg?
+                                        Der allerjüngste Bruder,
+                                        Der jüngste der höchste;
+                                        Die höchsten Hüte,
+                                        Die stolzesten Pferde,
+                                        Die beutschesten (sit vena verbo)
+                                        Sättel(follen wohl die zierlichsten feyn)
+                                        Ich rüstete den Bruder aus
+                                        Ich rüstete ihn aus und unterrichtete ihn:
+                                        Mein lieber Bruder,
+                                        Reit nicht voraus!
+                                        Bleib nicht zurück!
+                                        Die ersten werden geschlagen
+                                        Die hintersten erschlagen.
+                                        Drehe dich mitten im Krieg.
+                                        Nahe bey den Fahnenträger!
+                                        Die mittelsten kommen nach Hause.
+                                        Der Bruder kam aus dem Krieg nach Hause;
+                                        Ging vor des Vaters Thür:
+                                        Komm Vater, erkenne den Sohn!
+                                        Der Vater kam, erkannt nicht den Sohn.
+                                        Ging vor der Mutter Thür:
+                                        Komm Mutter, erkenne den Sohn!
+                                        Kam die Mutter, erkannt nicht den Sohn!
+                                        Ging vor des Bruders Thür:
+                                        Komm Bruder, erkenn den Bruder!
+                                        Kam der Bruder, erkannt nicht den Bruder.
+                                        Ging vor des Schwester Thür:
+                                        Komm Schweister, erkenn den Bruder!
+                                        Kam die Schwester, erkannt den Bruder!
+                                        Woran erkannt ich meinen jungen Bruder?
+                                        An den kurzen Kleidern,
+                                        An dem niederigen Mantel.
+                                        Mein lieber Bruder,
+                                        Sag (erzähl) mir Kriegs=Nachrichten:
+                                        Wie lebt man im Krieg?
+                                        Ist im Krieg das Weib lieb?
+                                        Das weib lied, die Gattin theuer?
+                                        O, meine kleine Schwester,
+                                        Buß meine leimichten Stieseln,
+                                        Keinige meinen blutigen Degen;
+                                        Dann fange ich an zu reden.
+                                        O, meine kleine Schwester,
+                                        Im Krieg ist das Weib nicht lieb.
+                                        (Nicht) das Weib lieb, die Gattin theuer;
+                                        Im Krieg ist lieb der blanke Degen,
+                                        Ein starkes Pferd,
+                                        Das den Mann (Kerl) aus dem Krieg rettet,
+                                        Den feindlichen Degen zu wechseln,
+                                        Die Flinte aus des Vornehmen Hand.
+                                    </i>
+</pre>
+                        </div>
+                    </div>

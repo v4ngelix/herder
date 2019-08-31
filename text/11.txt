@@ -1,0 +1,99 @@
+ <br />
+                    <br />
+                    <p>
+                        Laul räägib loo mehest, kes tõotas naist mitte võtta, kuid nägi, et ei saa naiseta elada ja otsustas naise puust valmistada.
+                    </p>
+                    <div class="triple">
+                        <div>
+                            <pre>
+                                <i>
+                                    Ellekenne, Wellekenne!
+                                    Kassike, kannicke!
+                                    Töotid Naiseta ellada,
+                                    kassike, kannicke!
+                                    Abbikasata karrata,
+                                    kassike kannicke!
+                                    Ärra koolda kossimatta. -
+                                    Sait ellama, sait ollema, -
+                                    Es sa Naiseta Elletud, -
+                                    Wottit tetta Puusta Naista. -
+                                    Wahtarasta walmistatta. -
+                                    Puust saab Naine puhtaënne, -
+                                    Wahtarasta saab walgeënne, -
+                                    Ounapuust saab öggewenne, -
+                                    Sarrapuust saab sirgeënne. -
+                                    Ellakenne, Wellekenne! -
+                                    Kolm on Naisele waiata, -
+                                    Sisse ella Hengekesta, -
+                                    Suhho kulla kelekesta, -
+                                    Pähhe Marja Melekesta. -
+                                    Ellakenne! Wellekenne! -
+                                    Wottit tetta Puusta Naista, -
+                                    Wissa Tammesta tahhuda, -
+                                    Panna kulda Palgeëlle, -
+                                    Höbbedad ülle öllade. -
+                                    Maggat Öö, maggat katsi. -
+                                    Läksit kolmata maggama,
+                                    kassike, kannicke!
+                                    Löidsit külmad kulla külled, -
+                                    Kalledat kaintele allused, -
+                                    Jälledat Höbbeda Jälged. -
+                                    Ellakenne! Wellekenne! -
+                                    Ei sa Naista sita Maalta, -
+                                    Neista neljasta küllasta: -
+                                    Säda Säred soudemaie, -
+                                    Labba Jallad laskemaie. -
+                                    Peig lät perra Möllaksi, -
+                                    Sädab Laiwa Saksa Male, -
+                                    Purjud pikkas Pihkeweta. -
+                                    Toob siis Naine Saksa Maalta. -
+                                </i>
+</pre>
+                        </div>
+                        <div>
+                            <pre>
+                                <i>
+                                    Härtlichgeliebter, Brüderchen!
+
+                                    Du versprachst ohnbeweist zu leben,
+
+                                    Ohne Gehülsin zu springen,
+
+                                    Ungefreit zu sterben.
+                                    Da du lebtest und warst (allein)
+                                    Kamst du nicht fort ohne Weib.
+                                    Du unternahmst aus Holz ein Weid zu machen,
+                                    Aus Lähnenholz sie zu versertigen.
+                                    Aus Holz wird ein reines Weid,
+                                    Aus Lähnenholz ein Weißes,
+                                    Aus Apfelholz ein Grades,
+                                    Aus Nußbaumholz ein Schlantes.
+                                    Liebchen! Brüderchen!
+                                    Dren Dinge sind nöthig einem Weide,
+                                    In ihr eine zärtliche Seele,
+                                    Im Munde eine goldene (liebliche) Zunge,
+                                    Im Kopf Beeren=Verstand (angenehmer Wiß).
+                                    Liebchen, Brüderchen!
+                                    Du unternahmst es, aus Holz ein Weid zu machen,
+                                    Aus einer zähen Eiche sie zu schnißen,
+                                    Ihr Geficht zu vergülben,
+                                    Die Schultern zu versilbern.
+                                    Du schläfst (ben ihr) eine Nacht, du schläfst zwen.
+                                    Du giengst die dritte schlafen,
+
+                                    Fandest des Goldes Seiten kalt,
+                                    Hart war es unter seinen Urmen,
+                                    Grauerlich die Spuren des Silbers.
+                                    Liebchen! Brüdrechen!
+                                    Kriegst du kein Weib hier aus dem Lande,
+                                    Aus diesen vier Dörfern:
+                                    So richt die Beine zum Rudern,
+                                    Deine Fußblätter zum Lauf!
+                                    Der Bräut'gam geht ins Hintertheil mit dem Steuerruder,
+                                    Richtet das Schif nach Deutchland
+                                    Die langen Seegel nach Pleskau.
+                                    Da bringt er fich eine Gattin aus Deutschland.
+                                </i>
+</pre>
+                        </div>
+                    </div>

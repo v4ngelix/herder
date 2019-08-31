@@ -1,0 +1,137 @@
+ <br />
+                    <br />
+                    <p>
+                        “Venna sõjalugu” on üks tuntumaid eesti jutustavaid regilaule. A. W. Hupel, kes enamasti pidas eesti rahvalaule lapsikuteks on “Venna sõjalaulu” puhul märkinud, et selles laulus on tavalisest rohkem tervet inimmõistust.
+                    </p>
+                    <div class="triple">
+                        <div>
+                            <pre>
+                                <i>
+                                        Schon ward die Kriegspost gebracht,
+                                        Feindschaft=Gerede getragen.
+                                        Wer von uns geht wieder in Krieg?
+                                        Der allerjüngste Bruder,
+                                        Der jüngste der höchste;
+                                        Die höchsten Hüte,
+                                        Die stolzesten Pferde,
+                                        Die beutschesten (sit vena verbo)
+                                        Sättel(follen wohl die zierlichsten feyn)
+                                        Ich rüstete den Bruder aus
+                                        Ich rüstete ihn aus und unterrichtete ihn:
+                                        Mein lieber Bruder,
+                                        Reit nicht voraus!
+                                        Bleib nicht zurück!
+                                        Die ersten werden geschlagen
+                                        Die hintersten erschlagen.
+                                        Drehe dich mitten im Krieg.
+                                        Nahe bey den Fahnenträger!
+                                        Die mittelsten kommen nach Hause.
+                                        Der Bruder kam aus dem Krieg nach Hause;
+
+                                        Ging vor des Vaters Thür:
+                                        Komm Vater, erkenne den Sohn!
+                                        Der Vater kam, erkannt nicht den Sohn.
+
+                                        Ging vor der Mutter Thür:
+                                        Komm Mutter, erkenne den Sohn!
+                                        Kam die Mutter, erkannt nicht den Sohn!
+
+                                        Ging vor des Bruders Thür:
+                                        Komm Bruder, erkenn den Bruder!
+                                        Kam der Bruder, erkannt nicht den Bruder.
+
+                                        Ging vor des Schwester Thür:
+                                        Komm Schweister, erkenn den Bruder!
+                                        Kam die Schwester, erkannt den Bruder!
+
+                                        Woran erkannt ich meinen jungen Bruder?
+                                        An den kurzen Kleidern,
+                                        An dem niederigen Mantel.
+                                        Mein lieber Bruder,
+                                        Sag (erzähl) mir Kriegs=Nachrichten:
+                                        Wie lebt man im Krieg?
+                                        Ist im Krieg das Weib lieb?
+                                        Das weib lied, die Gattin theuer?
+
+                                        O, meine kleine Schwester,
+                                        Buß meine leimichten Stieseln,
+                                        Keinige meinen blutigen Degen;
+                                        Dann fange ich an zu reden.
+
+                                        O, meine kleine Schwester,
+                                        Im Krieg ist das Weib nicht lieb.
+                                        (Nicht) das Weib lieb, die Gattin theuer;
+                                        Im Krieg ist lieb der blanke Degen,
+                                        Ein starkes Pferd,
+                                        Das den Mann (Kerl) aus dem Krieg rettet,
+                                        Den feindlichen Degen zu wechseln,
+                                        Die Flinte aus des Vornehmen Hand.
+                                    </i>
+</pre>
+                        </div>
+                        <div>
+                            <pre>
+                                <i>
+                Schon erscholl die Post des Krieges,
+                Schon erging der Ruf der Feindschaft,
+                Wer von uns geht nun zum Kriege?
+                Jüngster Bruder, gröster Bruder!
+                Die höchsten Hüte, die schönsten Pferde,
+
+                Die stolzesten Pferde, die deutschesten Sättel!
+
+
+                Eilig rüstet' ich den Bruder,
+                Rüstet' ich und unterwies ihn:
+                Lieber Bruder, guter Bruder,
+                Reit' nicht vorwärts, bleib'nicht rückwärts,
+
+                Denn der Feind erschlägt die ersten,
+                Und der Feind erschlägt die letzten.
+                Dreh' dich mitten in den Krieg hin,
+                Halt dich nah am Fahnenträger,
+                Denn die Mitte kommt nach Hause.
+                Brüder kam zurück nach Hause
+
+                Ging vor seines Vaters Thür:
+                „Vater, komm, erkenn den Sohn!
+                Vater kam und kannt ihn nicht.“
+
+                Ging vor seiner Mutter Thür:
+                „Mutter, komm, erkenn den Schon!
+                Mutter kam, erkannt ihn nicht.“
+
+                Ging vor seines Bruders Thür:
+                „Bruder, komm, erkenn den Bruder!
+                Bruder kam, erkannt ihn nicht.“
+
+                Ging vor seiner Schwester Thür;
+                „Schwester, komm, erkenn den Bruder!“
+                Schwester kam, erkannt den Bruder –
+
+                Woran kannt ich meinen Bruder?
+                Kannt ihn an den kurzen Kleidern,
+                Kannt ihn an dem niedern Mantel,
+                „Lieber Bruder, guter Bruder,
+                Sag', erzähle mir vom Kriege!
+                Sprich, wie lebt man in dem Kriege?
+                Ist im Kriege auch das Weib lieb?
+                Lieb das Weib, die Gattin theuer!“
+
+                „Liebe Schwester, kleine Schwester!
+                Zieh mir aus die staubgen Kleider,
+                Wisch mir ab den blutgen Degen,
+                Dann erzähl ich dir vom Kriege.
+
+                Nein im Krieg ist nicht das Weib lieb,
+                Nicht das Weib, die Gattin theuer!
+                Lieb im Krieg ist blanker Degen,
+                Lieb im Krieg' ein wackres Pferd,
+
+                Das den Mann vom Kriege rettet.
+                Lieb, zu wechseln Feindes Degen,
+                Das Gwehr aus Feindes Hand.“
+            </i>
+</pre>
+                        </div>
+                    </div>
