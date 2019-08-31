@@ -9,7 +9,7 @@
     z-index: 9999;
 }
 
-@media only screen and (max-width: 100px),
+@media only screen and (max-device-width: 599px),
 (orientation: portrait) {
     .mobile_support {
         display: flex;
