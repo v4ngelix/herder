@@ -134,8 +134,8 @@ let getInfo = new XMLHttpRequest();
 function request(input) {
     getInfo.onreadystatechange = function() {
         if (this.readystate == 4 || this.status == 200) {
-            tekst.innerHTML = getInfo.responseText;
-            console.log("jee");
+            tekst.innerHTML = getInfo.responseText; //viskab teksti sisse
+            console.log("jee"); //kontroll, EEMALDADA
         }
     };
     getInfo.open("GET", "text/" + input + ".txt");
@@ -155,7 +155,7 @@ function info(input) {
     peidaSisu();
     request(input);
 
-    if (input < 13) { input = 14 };
+    if (input < 13) { input = 1 };
     current = input;
     enabled = false;
     aside.classList.replace("nodisplay", "display");
