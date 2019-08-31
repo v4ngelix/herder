@@ -10,14 +10,13 @@
 }
 
 @media only screen and (max-device-width: 599px),
-(orientation: portrait) {
+(orientation: portrait),
+{
     .mobile_support {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: justify;
-        height: 100%;
-        width: 100%;
     }
     section {
         display: none;
