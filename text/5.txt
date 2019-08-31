@@ -1,0 +1,106 @@
+ <br />
+                        <br />
+                        <p>
+                            Hupeli saadetise hulgas oli enim pulmalaule, kokku viis. Mis on ka mõistetav, kuna Hupel oli pastor ja pulmade pidamine on alati olnud oluline. Pulmalulud on eesti rahvalaulu traditsioonis kõige improvisatsioonilisemad. Pulmalaulik oli enamasti vanem
+                            naine. Pulmalaulud käisid käsikäes pulmakommetega ning ühes lauludega viidi läbi abiellumisega seotud olulised rituaalid.
+                        </p>
+                        <div class="triple">
+                            <div>
+                                <pre>
+<i>
+Ehhi Neido Joua Neido!
+kassike! kannicke!
+Ehhi neile Ehteëlle,
+kassike! kannicke!
+Panen neile Paeladelle, -
+Mis so Emma enne ehtand, -
+Seäda neile Säristelle, -
+Mis so Emma enne seädnud.
+Panne Pähhä Memme Perga -
+Otsa ette Memme Hole!
+Kassike, kannicke.
+Istu Memme istemelle! -
+Astu Memme Astemelle!
+Ärra nutta Neiokenne! -
+Kui sa nuttad ehhitennes,
+Siis sa nuttat elladennes.
+Kassike, kannicke.
+
+
+Olga terwe, Neitsikenne!
+Kassike, kannicke!
+Omma auu hoidemasta, -
+Omma kasso kaswamasta! -
+Satis sajani Sössarad, -
+Pulmani öed punnased. -
+Es sada Issale Häbbi, -
+Es sada Emmale Häbbi, -
+Wennale weddo-Kübbarad, -
+Sössorole Söima suri. -
+Olga terwe neitsikenne! -
+
+
+Neitsikenne norokenne,
+Mis sa kulad kambenesse?
+Seisad seinade taggase?
+Pillotad läbbi pilloda?
+Tulle suggu tuntemaie;
+Wössa wastowottemaie:
+Eimuda terretamaie,
+Kellil kätte andemaie.
+Suggu sabas seri suri;
+Eimud keik höbbi kübbarad.
+Neitsikenne norokenne.
+    </i>
+</pre>
+                            </div>
+                            <div>
+                                <pre>
+<i>
+Schmück dich, Jungferchen, eile Jungferchen!
+
+Schmück dich aus mit dem Schmuck
+
+Leg an die Bänder,
+Welche deine Mutter vorhin zierten.
+Leg auf die Fußbinden,
+Welche deine Mutter vorhin trug.
+Seß auf den Kopf der Mutter Kranz,
+Vor die Stirn der Mutter Sorge!
+
+Seß dich auf den Siß der Mutter,
+Tritt auf den Fußtritt der Mutter!
+Weine nicht, Jungfräulein!
+Wenn du beym Unkleiden weinst,
+So wenst du auch im (deinem künftigen) Leben.
+
+
+
+Habe Dank, Jungfräulein,
+
+Deine Ehre bewahrt zu haben,
+Deinen Wuchs gewachsen zu haben!
+Sie führte bis zur Hochzeit die Schwestern,
+Bis zur Hochzeit die rothen (schõnen) Schwestern.
+Sie machte dem Vater nicht Schande,
+Sie machte der Mutter nicht Schande,
+Sie brachte dem Bruder keinen Schandhuth,
+Der Shwester keine grobe Schimpfworte
+Habe Dank, Jungfräulein.
+
+
+Junges mädchen,
+Was horchst du in der Kammer?
+Stehest hinter der Wand?
+Lauerst burch den Riß?
+Komm, lern die Verwandschaft kennen;
+Die Unverwandten zu empfangen;
+Die Schwiegermutter zu grüßen
+Der Schwägerin die Hand zu geben.
+Die Verwandschaft ist vom großen Stiefel=geschlecht;
+Die Schwiegermütter haben alle silberne Hüte (Mützen).
+Junges mädchen.
+</i>
+</pre>
+                            </div>
+                        </div>
