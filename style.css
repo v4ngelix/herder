@@ -9,9 +9,7 @@
     z-index: 9999;
 }
 
-@media (max-width: 599px),
-(orientation: portrait),
-{
+@media (hover: none) {
     .mobile_support {
         display: flex;
         flex-direction: column;
