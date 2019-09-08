@@ -27,15 +27,23 @@
         <h1>Sorry</h1>
         <h2>No mobile support</h2>
     </div>
-
     </div>
     <div class="preloader visible">
-        <div class="preloaderFront"></div>
-        <div class="preloaderBack"></div>
+        <div class="preloaderFlex">
+            <div class="preloaderFront"></div>
+            <div class="preloaderBack"></div>
+        </div>
+
     </div>
     <div class="mainWindow">
         <div class="farBack invisible">
-
+            <div class="" id="backTop">
+                <div>
+                    <a href="javascript:tagasiÜlesse()">
+                        <img src="media/tagasi ülesse.svg" />
+                    </a>
+                </div>
+            </div>
             <aside class="asideDefault nodisplay">
                 <div class="sulgemiseNupp">
                     <a href="javascript:peida()">
@@ -48,7 +56,10 @@
 
                     </div>
                     <!--jöörru-->
+                    <div class="sisu nodisplay invisible">
+                        <pre class="tekst"></pre>
 
+                    </div>
                     <div class="sisu nodisplay invisible">
                         <img src="media/hupel.png" />
                         <h2>
@@ -190,7 +201,6 @@
 
             <section class="piimjasUdu above">
                 <div class="container invisible title">
-
                 </div>
             </section>
             <section class="below laulupidu">
@@ -505,8 +515,8 @@
                 <div class="container invisible piimjasUdu">
                     <div class="ruut">
                         <video width="720" height="404" controls>
-                    <source src="media/video.mp4" type="video/mp4">
-                </video>
+                            <source src="media/video.mp4" type="video/mp4">
+                        </video>
                         <p>
                             Joonas Hellermaa tutvustab kultuurisaates Mi Herderi isikuarhiivi Berliinis. <br /> Eesti laulude originaaltekste näitab talle Kaspar Renner.<br /> http://arhiiv.err.ee/guid/20180301224738801000300112290E2BA238B440000005008B00000D0F003771
                         </p>
@@ -692,11 +702,7 @@ Videod on ETV arhiivist.
                     </div>
                 </div>
             </section>
-            <div class="invisible" id="tagasiÜlesse">
-                <a href="javascript:tagasiÜlesse()">
-                    <img src="media/tagasi ülesse.svg" />
-                </a>
-            </div>
+
             <div class="nuppAlla">
                 <div>
                     <a href="javascript:increment()">
