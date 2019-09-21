@@ -196,36 +196,36 @@ embed {
 .center {
   top: 0;
   left: 0;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .below {
   top: 100%;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .visible {
   opacity: 1;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .longVisible {
   opacity: 1;
-  transition-duration: 6s;
+  transition-duration: 3s;
 }
 
 .invisible {
   opacity: 0;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .longInvisible {
   opacity: 0;
-  transition-duration: 4s;
+  transition-duration: 2s;
 }
 
 .delay {
-  transition-delay: 2s;
+  transition-delay: 1s;
 }
 
 .nodisplay {
