@@ -51,9 +51,9 @@ function decrement() {
             preFadeItem.classList.replace("visible", "invisible");
         }
     }
-    if (read < 1) {
-        up.classList.replace("visible", "invisible");
-    }
+    //if (read < 1) {
+    //    up.classList.replace("visible", "invisible");
+    //}
 }
 
 function subIncrement() {
@@ -83,9 +83,9 @@ function increment() {
             fadeItem.classList.replace("invisible", "visible");
         }
     }
-    if (read > 0) {
-        up.classList.replace("invisible", "visible");
-    }
+    //if (read > 0) {
+    //    up.classList.replace("invisible", "visible");
+    //}
 }
 
 window.addEventListener("keydown", function(keydown) {
@@ -103,7 +103,7 @@ window.addEventListener("keydown", function(keydown) {
 
         console.log("current page: " + read);
         paused = false;
-        setTimeout(function() { paused = true; }, 1000);
+        setTimeout(function() { paused = true; }, 500);
     }
 });
 window.addEventListener("wheel", function(wheel) {
@@ -118,7 +118,7 @@ window.addEventListener("wheel", function(wheel) {
 
         console.log("current page: " + read);
         paused = false;
-        setTimeout(function() { paused = true; }, 1000);
+        setTimeout(function() { paused = true; }, 500);//navigeerimise kiirus, norm ~1000
     }
 });
 
@@ -160,9 +160,8 @@ function info(input) {
 
             break;
         default:
-            input = 1
+            input = 1;
             break;
-
     };
 
     current = input;
