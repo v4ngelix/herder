@@ -42,66 +42,50 @@ body {
 }
 .preloader {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: dimgray;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
   z-index: 9999;
 }
 
-.preloaderFlex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.preloaderFront {
+.preloader__element {
   position: absolute;
-  top: 50%;
   height: 40px;
   width: 40px;
   border: none;
   border-radius: 50%;
   background-color: lightgray;
-  animation: preloaderFrontAnimation 3s infinite;
+  animation: preloaderAnimation 3s infinite;
+  animation-delay: 0s;
 }
 
-@keyframes preloaderFrontAnimation {
+.preloader__element:nth-of-type(1) {
+  animation-delay: -1s;
+}
+
+.preloader__element:nth-of-type(2) {
+  animation-delay: -2s;
+}
+
+.preloader__element:nth-of-type(3) {
+  animation-delay: -3s;
+}
+
+@keyframes preloaderAnimation {
   0% {
     transform: scale(0);
     opacity: 1;
   }
   50% {
-    transform: scale(2);
+    transform: scale(3);
     opacity: 0;
   }
   100% {
     transform: scale(0);
     opacity: 1;
-  }
-}
-.preloaderBack {
-  position: absolute;
-  top: 50%;
-  height: 40px;
-  width: 40px;
-  border: none;
-  border-radius: 50%;
-  background-color: lightgray;
-  animation: preloaderBackAnimation 3s infinite;
-}
-
-@keyframes preloaderBackAnimation {
-  0% {
-    transform: scale(2);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(2);
-    opacity: 0;
   }
 }
 aside {
@@ -113,10 +97,9 @@ aside {
   top: 0;
   box-shadow: rgba(0, 0, 0, 0.7) 10px 0 20px;
   background-color: rgba(255, 255, 255, 0.85);
-  transition-duration: 4s;
+  transition-duration: 2s;
   z-index: 1000;
   overflow: hidden;
-  transition: 2s;
 }
 
 .asideDefault {
@@ -240,6 +223,12 @@ embed {
   overflow-y: scroll;
 }
 
+.flex--centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mainWindow {
   position: absolute;
   display: flex;
@@ -261,19 +250,12 @@ embed {
   max-width: 1366px;
   margin: auto;
   padding: 0 0 0 0;
+  background-color: #e4e0dd;
   background-image: url(media/farBack.webp);
   background-position-y: bottom;
   background-position-x: left;
   box-shadow: rgba(26, 26, 26, 0.9) 0 25px 40px;
   overflow: hidden;
-}
-
-.title {
-  background-image: url("media/title.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
 }
 
 section {
@@ -523,6 +505,10 @@ nav img {
   background-image: url(media/farBack.webp);
   background-position-y: bottom;
   background-position-x: left;
+}
+
+.title {
+  background-image: url("media/title.png");
 }
 
 .marx {
