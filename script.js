@@ -23,7 +23,7 @@ let conteinerCount = read - 1;
 
 
 //Launch initial code - removes preloader and displays first "Section":
-document.addEventListener("load", pageLoaded());
+document.addEventListener("load", function {pageLoaded()});
 
 function pageLoaded() {
     resetContentStates();
